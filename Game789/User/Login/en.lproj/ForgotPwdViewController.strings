@@ -1,0 +1,23 @@
+/* Class = "UIButton"; normalTitle = "確認找回"; ObjectID = "36p-Gc-Nad"; */
+"36p-Gc-Nad.normalTitle" = "確認找回";
+
+/* Class = "UILabel"; text = "新密碼"; ObjectID = "Dgj-q8-v5m"; */
+"Dgj-q8-v5m.text" = "新密碼";
+
+/* Class = "UILabel"; text = "驗證碼"; ObjectID = "KV3-0R-8Cw"; */
+"KV3-0R-8Cw.text" = "驗證碼";
+
+/* Class = "UITextField"; placeholder = "請輸入驗證碼"; ObjectID = "MuS-1S-mnT"; */
+"MuS-1S-mnT.placeholder" = "請輸入驗證碼";
+
+/* Class = "UITextField"; placeholder = "請輸入手機號"; ObjectID = "Zs8-EC-l6b"; */
+"Zs8-EC-l6b.placeholder" = "請輸入手機號";
+
+/* Class = "UITextField"; placeholder = "請設置登錄密碼"; ObjectID = "iP5-1m-FLB"; */
+"iP5-1m-FLB.placeholder" = "請設置登錄密碼";
+
+/* Class = "UILabel"; text = "手機號"; ObjectID = "jx0-1Q-oTw"; */
+"jx0-1Q-oTw.text" = "手機號";
+
+/* Class = "UIButton"; normalTitle = "發送驗證碼"; ObjectID = "tNk-4s-R7m"; */
+"tNk-4s-R7m.normalTitle" = "發送驗證碼";

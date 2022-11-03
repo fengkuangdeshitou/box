@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "注：请谨慎选择游戏，兑换后不可撤销"; ObjectID = "CTn-Pd-pNW"; */
+"CTn-Pd-pNW.text" = "注：请谨慎选择游戏，兑换后不可撤销";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "G8P-ti-s7b"; */
+"G8P-ti-s7b.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "立即兑换"; ObjectID = "cgI-0b-MhJ"; */
+"cgI-0b-MhJ.normalTitle" = "立即兑换";
+
+/* Class = "UILabel"; text = "金币："; ObjectID = "e6U-PB-tRl"; */
+"e6U-PB-tRl.text" = "金币：";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "lt3-47-nzZ"; */
+"lt3-47-nzZ.text" = "账号";

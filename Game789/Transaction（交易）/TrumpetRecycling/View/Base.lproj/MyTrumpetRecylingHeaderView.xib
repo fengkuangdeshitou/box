@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyTrumpetRecylingHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="658"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSr-KA-NFv">
+                    <rect key="frame" x="15" y="10" width="384" height="80.333333333333329"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6l-4M-qTT">
+                            <rect key="frame" x="0.0" y="0.0" width="102.33333333333333" height="80.333333333333329"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recyle_step_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WyE-og-WMs">
+                                    <rect key="frame" x="35" y="11" width="32" height="32"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择小号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiL-uZ-cUj">
+                                    <rect key="frame" x="24.333333333333332" y="49.666666666666664" width="53.333333333333343" height="15.666666666666664"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="WyE-og-WMs" firstAttribute="top" secondItem="a6l-4M-qTT" secondAttribute="top" constant="11" id="0jY-tX-u4F"/>
+                                <constraint firstAttribute="bottom" secondItem="WiL-uZ-cUj" secondAttribute="bottom" constant="15" id="Ylx-HJ-Dq7"/>
+                                <constraint firstItem="WyE-og-WMs" firstAttribute="centerX" secondItem="a6l-4M-qTT" secondAttribute="centerX" id="iaf-eH-Mhy"/>
+                                <constraint firstItem="WiL-uZ-cUj" firstAttribute="centerX" secondItem="WyE-og-WMs" secondAttribute="centerX" id="lhP-RL-xf3"/>
+                                <constraint firstItem="WiL-uZ-cUj" firstAttribute="top" secondItem="WyE-og-WMs" secondAttribute="bottom" constant="6.5" id="zFW-fZ-Jkk"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nX5-Fr-QrP">
+                            <rect key="frame" x="141" y="0.0" width="102" height="80.333333333333329"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recyle_step_icon1" translatesAutoresizingMaskIntoConstraints="NO" id="ZfB-za-uSb">
+                                    <rect key="frame" x="35" y="11" width="32" height="32"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="确认提交" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNS-0c-9iI">
+                                    <rect key="frame" x="24.333333333333346" y="49.666666666666664" width="53.333333333333343" height="15.666666666666664"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="ZfB-za-uSb" firstAttribute="centerX" secondItem="nX5-Fr-QrP" secondAttribute="centerX" id="68O-PV-7mE"/>
+                                <constraint firstItem="uNS-0c-9iI" firstAttribute="top" secondItem="ZfB-za-uSb" secondAttribute="bottom" constant="6.5" id="Mj3-Zl-NDw"/>
+                                <constraint firstItem="uNS-0c-9iI" firstAttribute="centerX" secondItem="ZfB-za-uSb" secondAttribute="centerX" id="NNY-vQ-MxR"/>
+                                <constraint firstItem="ZfB-za-uSb" firstAttribute="top" secondItem="nX5-Fr-QrP" secondAttribute="top" constant="11" id="ena-8r-EK8"/>
+                                <constraint firstAttribute="bottom" secondItem="uNS-0c-9iI" secondAttribute="bottom" constant="15" id="kHl-Ha-Mb1"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xip-Hz-5Fv">
+                            <rect key="frame" x="271.66666666666669" y="0.0" width="102.33333333333331" height="80.333333333333329"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recyle_step_icon2" translatesAutoresizingMaskIntoConstraints="NO" id="EB4-6P-mIL">
+                                    <rect key="frame" x="35.333333333333314" y="11" width="32" height="32"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="实时到账" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwz-cM-HLG">
+                                    <rect key="frame" x="24.666666666666632" y="49.666666666666664" width="53.333333333333343" height="15.666666666666664"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="Nwz-cM-HLG" firstAttribute="top" secondItem="EB4-6P-mIL" secondAttribute="bottom" constant="6.5" id="3yr-4g-n5p"/>
+                                <constraint firstAttribute="bottom" secondItem="Nwz-cM-HLG" secondAttribute="bottom" constant="15" id="8jU-dr-8gX"/>
+                                <constraint firstItem="Nwz-cM-HLG" firstAttribute="centerX" secondItem="EB4-6P-mIL" secondAttribute="centerX" id="B2c-wv-8WV"/>
+                                <constraint firstItem="EB4-6P-mIL" firstAttribute="centerX" secondItem="Xip-Hz-5Fv" secondAttribute="centerX" id="T6g-3v-uoj"/>
+                                <constraint firstItem="EB4-6P-mIL" firstAttribute="top" secondItem="Xip-Hz-5Fv" secondAttribute="top" constant="11" id="ias-mS-11e"/>
+                            </constraints>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recyle_line_icon" translatesAutoresizingMaskIntoConstraints="NO" id="fUE-Ap-Stp">
+                            <rect key="frame" x="242.66666666666669" y="38.666666666666664" width="19" height="3"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recyle_line_icon" translatesAutoresizingMaskIntoConstraints="NO" id="dhT-nk-A2h">
+                            <rect key="frame" x="112.33333333333333" y="38.666666666666664" width="18.666666666666671" height="3"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="dhT-nk-A2h" firstAttribute="leading" secondItem="a6l-4M-qTT" secondAttribute="trailing" constant="10" id="4KQ-mv-7vy"/>
+                        <constraint firstItem="nX5-Fr-QrP" firstAttribute="height" secondItem="a6l-4M-qTT" secondAttribute="height" id="9Aa-1Z-UrA"/>
+                        <constraint firstItem="Xip-Hz-5Fv" firstAttribute="leading" secondItem="fUE-Ap-Stp" secondAttribute="trailing" constant="10" id="MFL-sf-itW"/>
+                        <constraint firstItem="nX5-Fr-QrP" firstAttribute="centerY" secondItem="a6l-4M-qTT" secondAttribute="centerY" id="MhL-jM-lz2"/>
+                        <constraint firstItem="nX5-Fr-QrP" firstAttribute="centerX" secondItem="VSr-KA-NFv" secondAttribute="centerX" id="Pki-ac-0Mq"/>
+                        <constraint firstItem="nX5-Fr-QrP" firstAttribute="width" secondItem="a6l-4M-qTT" secondAttribute="width" id="VVx-Sm-JEh"/>
+                        <constraint firstItem="Xip-Hz-5Fv" firstAttribute="height" secondItem="a6l-4M-qTT" secondAttribute="height" id="WfV-Xd-PoS"/>
+                        <constraint firstItem="fUE-Ap-Stp" firstAttribute="centerY" secondItem="VSr-KA-NFv" secondAttribute="centerY" id="ar3-IX-uQu"/>
+                        <constraint firstItem="a6l-4M-qTT" firstAttribute="leading" secondItem="VSr-KA-NFv" secondAttribute="leading" id="bhO-3x-pRR"/>
+                        <constraint firstAttribute="trailing" secondItem="Xip-Hz-5Fv" secondAttribute="trailing" constant="10" id="bvA-Ha-VOn"/>
+                        <constraint firstItem="a6l-4M-qTT" firstAttribute="centerY" secondItem="VSr-KA-NFv" secondAttribute="centerY" id="eZ3-3b-hNY"/>
+                        <constraint firstItem="dhT-nk-A2h" firstAttribute="centerY" secondItem="VSr-KA-NFv" secondAttribute="centerY" id="f1E-9S-kF1"/>
+                        <constraint firstItem="nX5-Fr-QrP" firstAttribute="leading" secondItem="dhT-nk-A2h" secondAttribute="trailing" constant="10" id="fmG-ZP-Q3c"/>
+                        <constraint firstItem="a6l-4M-qTT" firstAttribute="top" secondItem="VSr-KA-NFv" secondAttribute="top" id="hXU-jy-cM4"/>
+                        <constraint firstItem="Xip-Hz-5Fv" firstAttribute="centerY" secondItem="a6l-4M-qTT" secondAttribute="centerY" id="yb9-0s-P1a"/>
+                        <constraint firstItem="Xip-Hz-5Fv" firstAttribute="width" secondItem="a6l-4M-qTT" secondAttribute="width" id="zjS-zO-qOg"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="13"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="回收须知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rN-xP-iny">
+                    <rect key="frame" x="15" y="110.33333333333333" width="69.333333333333329" height="20.999999999999986"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gk-JZ-3b3">
+                    <rect key="frame" x="15" y="146.33333333333337" width="384" height="257"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="累计充值满100元以上小号，可按实际充值5%金额回收金币，充值仅计算2019.09之后小号充值部分，金币/代金券充值不计算在内。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYV-LC-ydG">
+                            <rect key="frame" x="13.666666666666657" y="15" width="357" height="43"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="购买的小号进行回收仅计算购买后充值金额，回收后72小时内可赎回，逾期不可赎回。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgH-mV-NXp">
+                            <rect key="frame" x="13.666666666666657" y="69" width="357" height="28.666666666666671"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赎回小号仅支持现金赎回，需额外支付该小号充值金额的3%作为赎回手续费；赎回后可直接选择相应的小号登录游戏！（例：若小号充值满100元，回收后获得50金币。若用户需要赎回，则需支付5+3=8元）" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXU-wv-F0C">
+                            <rect key="frame" x="13.666666666666657" y="108.66666666666664" width="357" height="57.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小号回收成功后，该小号在本游戏中所有区服的角色会一同售出。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCx-6y-nmd">
+                            <rect key="frame" x="13.666666666666657" y="176.99999999999997" width="357" height="14.333333333333343"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如有任何疑问，可联系客服咨询!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efc-hy-e4j">
+                            <rect key="frame" x="13.666666666666657" y="227.66666666666666" width="357" height="14.333333333333343"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关服3个月及以上的游戏不可回收。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtF-WZ-br5">
+                            <rect key="frame" x="13.666666666666657" y="202.33333333333334" width="357" height="14.333333333333343"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="TCx-6y-nmd" firstAttribute="leading" secondItem="aYV-LC-ydG" secondAttribute="leading" id="03h-8o-L8c"/>
+                        <constraint firstItem="sXU-wv-F0C" firstAttribute="top" secondItem="kgH-mV-NXp" secondAttribute="bottom" constant="11" id="4hT-oL-gpy"/>
+                        <constraint firstItem="aYV-LC-ydG" firstAttribute="leading" secondItem="6gk-JZ-3b3" secondAttribute="leading" constant="13.5" id="BSs-ja-qpG"/>
+                        <constraint firstAttribute="bottom" secondItem="efc-hy-e4j" secondAttribute="bottom" constant="15" id="BWc-AN-YdW"/>
+                        <constraint firstItem="kgH-mV-NXp" firstAttribute="trailing" secondItem="aYV-LC-ydG" secondAttribute="trailing" id="EPj-lr-MKA"/>
+                        <constraint firstItem="aYV-LC-ydG" firstAttribute="top" secondItem="6gk-JZ-3b3" secondAttribute="top" constant="15" id="Fcf-JQ-uwM"/>
+                        <constraint firstItem="sXU-wv-F0C" firstAttribute="trailing" secondItem="aYV-LC-ydG" secondAttribute="trailing" id="N55-XC-rsf"/>
+                        <constraint firstItem="TtF-WZ-br5" firstAttribute="trailing" secondItem="aYV-LC-ydG" secondAttribute="trailing" id="O76-aJ-492"/>
+                        <constraint firstItem="efc-hy-e4j" firstAttribute="top" secondItem="TtF-WZ-br5" secondAttribute="bottom" constant="11" id="OI8-Jf-ReP"/>
+                        <constraint firstItem="TCx-6y-nmd" firstAttribute="top" secondItem="sXU-wv-F0C" secondAttribute="bottom" constant="11" id="PXg-LG-Zoh"/>
+                        <constraint firstItem="TCx-6y-nmd" firstAttribute="trailing" secondItem="aYV-LC-ydG" secondAttribute="trailing" id="V0G-ws-Uc3"/>
+                        <constraint firstItem="kgH-mV-NXp" firstAttribute="leading" secondItem="aYV-LC-ydG" secondAttribute="leading" id="b0X-O6-VfL"/>
+                        <constraint firstItem="TtF-WZ-br5" firstAttribute="leading" secondItem="aYV-LC-ydG" secondAttribute="leading" id="cRA-T7-hJ0"/>
+                        <constraint firstItem="efc-hy-e4j" firstAttribute="leading" secondItem="aYV-LC-ydG" secondAttribute="leading" id="eAW-1w-Vyv"/>
+                        <constraint firstItem="efc-hy-e4j" firstAttribute="trailing" secondItem="aYV-LC-ydG" secondAttribute="trailing" id="lzH-5G-oVF"/>
+                        <constraint firstItem="kgH-mV-NXp" firstAttribute="top" secondItem="aYV-LC-ydG" secondAttribute="bottom" constant="11" id="nTB-EZ-Xbz"/>
+                        <constraint firstAttribute="trailing" secondItem="aYV-LC-ydG" secondAttribute="trailing" constant="13.5" id="rLG-j4-IzQ"/>
+                        <constraint firstItem="TtF-WZ-br5" firstAttribute="top" secondItem="TCx-6y-nmd" secondAttribute="bottom" constant="11" id="ufT-U2-aPq"/>
+                        <constraint firstItem="sXU-wv-F0C" firstAttribute="leading" secondItem="aYV-LC-ydG" secondAttribute="leading" id="w04-Xy-3E1"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="13"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="温馨提示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="so0-Ud-jDD">
+                    <rect key="frame" x="15" y="423.33333333333331" width="69.333333333333329" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="55X-mb-ooa">
+                    <rect key="frame" x="15" y="459.33333333333331" width="384" height="58.666666666666686"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="仅支持现金赎回，回收后，请手动退出游戏，切勿再往这个角色充值，造成损失概不负责!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMB-e6-S6F">
+                            <rect key="frame" x="13.666666666666657" y="15.000000000000002" width="357" height="28.666666666666671"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="GMB-e6-S6F" secondAttribute="trailing" constant="13.5" id="Dvj-Cd-Vq8"/>
+                        <constraint firstAttribute="bottom" secondItem="GMB-e6-S6F" secondAttribute="bottom" constant="15" id="Vtg-Q1-Ov6"/>
+                        <constraint firstItem="GMB-e6-S6F" firstAttribute="leading" secondItem="55X-mb-ooa" secondAttribute="leading" constant="13.5" id="Z7Y-gs-S6P"/>
+                        <constraint firstItem="GMB-e6-S6F" firstAttribute="top" secondItem="55X-mb-ooa" secondAttribute="top" constant="15" id="mN8-iw-GFR"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="13"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可回收小号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7M-fl-8Y4">
+                    <rect key="frame" x="15" y="538" width="86.666666666666671" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6gk-JZ-3b3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="11G-UT-uDW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VSr-KA-NFv" secondAttribute="trailing" constant="15" id="3II-pb-tmS"/>
+                <constraint firstItem="so0-Ud-jDD" firstAttribute="top" secondItem="6gk-JZ-3b3" secondAttribute="bottom" constant="20" id="4LQ-zY-xvG"/>
+                <constraint firstItem="55X-mb-ooa" firstAttribute="top" secondItem="so0-Ud-jDD" secondAttribute="bottom" constant="15" id="5za-vu-YP6"/>
+                <constraint firstItem="VSr-KA-NFv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="8Oq-Cm-VEE"/>
+                <constraint firstItem="7rN-xP-iny" firstAttribute="top" secondItem="VSr-KA-NFv" secondAttribute="bottom" constant="20" id="AIk-Sk-Mfa"/>
+                <constraint firstItem="55X-mb-ooa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="CoW-2G-yhS"/>
+                <constraint firstItem="VSr-KA-NFv" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="E6W-mq-CPu"/>
+                <constraint firstItem="d7M-fl-8Y4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="bWC-Hb-2GF"/>
+                <constraint firstItem="so0-Ud-jDD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="cPS-c1-84a"/>
+                <constraint firstItem="d7M-fl-8Y4" firstAttribute="top" secondItem="55X-mb-ooa" secondAttribute="bottom" constant="20" id="diu-bz-PpH"/>
+                <constraint firstItem="7rN-xP-iny" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="hW6-hp-tsM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6gk-JZ-3b3" secondAttribute="trailing" constant="15" id="qec-fa-F45"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="55X-mb-ooa" secondAttribute="trailing" constant="15" id="xuu-1u-vSr"/>
+                <constraint firstItem="6gk-JZ-3b3" firstAttribute="top" secondItem="7rN-xP-iny" secondAttribute="bottom" constant="15" id="zv9-mQ-UgN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="showTitle" destination="d7M-fl-8Y4" id="q1h-I8-Ypp"/>
+            </connections>
+            <point key="canvasLocation" x="-581.15942028985512" y="855.97826086956525"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="recyle_line_icon" width="18.666666030883789" height="3"/>
+        <image name="recyle_step_icon" width="32" height="32"/>
+        <image name="recyle_step_icon1" width="32" height="32"/>
+        <image name="recyle_step_icon2" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

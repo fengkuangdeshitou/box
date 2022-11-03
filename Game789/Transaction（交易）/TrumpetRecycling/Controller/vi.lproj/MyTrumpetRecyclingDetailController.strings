@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "5"; ObjectID = "0y8-dq-cDI"; */
+"0y8-dq-cDI.text" = "5";
+
+/* Class = "UILabel"; text = "满足回收小号"; ObjectID = "6rz-Bi-Pp2"; */
+"6rz-Bi-Pp2.text" = "满足回收小号";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "8lY-IH-cRg"; */
+"8lY-IH-cRg.text" = "1";
+
+/* Class = "UILabel"; text = "小号昵称"; ObjectID = "JC5-AA-EoC"; */
+"JC5-AA-EoC.text" = "小号昵称";
+
+/* Class = "UILabel"; text = "金币"; ObjectID = "Wlh-xc-W2c"; */
+"Wlh-xc-W2c.text" = "金币";
+
+/* Class = "UILabel"; text = "累充金额"; ObjectID = "ZNX-tM-jWN"; */
+"ZNX-tM-jWN.text" = "累充金额";
+
+/* Class = "UILabel"; text = "神之路"; ObjectID = "cLK-Da-ZjN"; */
+"cLK-Da-ZjN.text" = "神之路";
+
+/* Class = "UILabel"; text = "操作"; ObjectID = "ei4-gG-vnB"; */
+"ei4-gG-vnB.text" = "操作";
+
+/* Class = "UILabel"; text = "个，可回收总金额"; ObjectID = "jJu-fw-7rz"; */
+"jJu-fw-7rz.text" = "个，可回收总金额";
+
+/* Class = "UILabel"; text = "可回收金额"; ObjectID = "rdk-cu-O9y"; */
+"rdk-cu-O9y.text" = "可回收金额";
+
+/* Class = "UIButton"; normalTitle = "确认回收"; ObjectID = "uP9-3z-QUW"; */
+"uP9-3z-QUW.normalTitle" = "确认回收";

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyAddWxView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vVa-PQ-zbl">
+                    <rect key="frame" x="42.5" y="274.5" width="329" height="347.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加企业微信" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EzC-ew-aJ6">
+                            <rect key="frame" x="109.5" y="30" width="110.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="Z9E-sR-HH6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ErM-KS-hJw">
+                            <rect key="frame" x="99.5" y="71" width="130" height="130"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="130" id="Vni-4b-Fcz"/>
+                                <constraint firstAttribute="height" constant="130" id="qVd-lY-LEf"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPc-uY-zbb">
+                            <rect key="frame" x="29" y="221" width="271" height="35.5"/>
+                            <attributedString key="attributedText">
+                                <fragment content="点击微信右上角“+”扫一扫--进入相册选择二维码照片--添加至通讯录即可">
+                                    <attributes>
+                                        <color key="NSColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INu-iO-kkG">
+                            <rect key="frame" x="89.5" y="276.5" width="150" height="41"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="j3M-ZO-552"/>
+                                <constraint firstAttribute="height" constant="41" id="xRw-8M-B9F"/>
+                            </constraints>
+                            <state key="normal" image="service_add_icon"/>
+                            <connections>
+                                <action selector="addAndSaveClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="dg3-e1-WTx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0g1-Sn-HQX">
+                            <rect key="frame" x="294" y="10" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="Bcn-FN-2TD"/>
+                                <constraint firstAttribute="width" constant="25" id="Eid-Uf-oZI"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="-5" maxX="-5" maxY="0.0"/>
+                            <state key="normal" image="detail_close_icon"/>
+                            <connections>
+                                <action selector="closeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="fSE-n3-S4a"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="0g1-Sn-HQX" firstAttribute="top" secondItem="vVa-PQ-zbl" secondAttribute="top" constant="10" id="3EB-q9-6Wi"/>
+                        <constraint firstItem="ErM-KS-hJw" firstAttribute="centerX" secondItem="vVa-PQ-zbl" secondAttribute="centerX" id="7dO-Ji-51O"/>
+                        <constraint firstItem="INu-iO-kkG" firstAttribute="top" secondItem="yPc-uY-zbb" secondAttribute="bottom" constant="20" id="8qb-IK-shl"/>
+                        <constraint firstItem="yPc-uY-zbb" firstAttribute="top" secondItem="ErM-KS-hJw" secondAttribute="bottom" constant="20" id="Mxg-N8-8z2"/>
+                        <constraint firstItem="yPc-uY-zbb" firstAttribute="leading" secondItem="vVa-PQ-zbl" secondAttribute="leading" constant="29" id="RAK-PM-ka9"/>
+                        <constraint firstItem="ErM-KS-hJw" firstAttribute="top" secondItem="EzC-ew-aJ6" secondAttribute="bottom" constant="20" id="WhF-30-y5n"/>
+                        <constraint firstAttribute="bottom" secondItem="INu-iO-kkG" secondAttribute="bottom" constant="30" id="bcA-Mr-u9u"/>
+                        <constraint firstItem="yPc-uY-zbb" firstAttribute="centerX" secondItem="vVa-PQ-zbl" secondAttribute="centerX" id="hdX-hk-Ywe"/>
+                        <constraint firstAttribute="trailing" secondItem="0g1-Sn-HQX" secondAttribute="trailing" constant="10" id="iEY-J3-b50"/>
+                        <constraint firstItem="INu-iO-kkG" firstAttribute="centerX" secondItem="vVa-PQ-zbl" secondAttribute="centerX" id="jtH-7P-jz5"/>
+                        <constraint firstItem="EzC-ew-aJ6" firstAttribute="top" secondItem="vVa-PQ-zbl" secondAttribute="top" constant="30" id="jvU-K9-FmJ"/>
+                        <constraint firstItem="EzC-ew-aJ6" firstAttribute="centerX" secondItem="vVa-PQ-zbl" secondAttribute="centerX" id="tzf-ZU-R7C"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96470588239999999" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vVa-PQ-zbl" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4ut-u4-Itw"/>
+                <constraint firstItem="vVa-PQ-zbl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="42.5" id="b2h-dm-Qmx"/>
+                <constraint firstItem="vVa-PQ-zbl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kuU-eJ-86s"/>
+            </constraints>
+            <connections>
+                <outlet property="codeImageView" destination="ErM-KS-hJw" id="P3Z-ql-4yQ"/>
+            </connections>
+            <point key="canvasLocation" x="-74" y="44"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="detail_close_icon" width="10.5" height="10.5"/>
+        <image name="service_add_icon" width="150" height="41"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "金币记录"; ObjectID = "3au-cJ-A6D"; */
+"3au-cJ-A6D.normalTitle" = "金幣記錄";
+
+/* Class = "UIButton"; normalTitle = "+20"; ObjectID = "D5Q-Ix-ef4"; */
+"D5Q-Ix-ef4.normalTitle" = "+20";
+
+/* Class = "UILabel"; text = "当前金币（个）"; ObjectID = "HII-3b-cI7"; */
+"HII-3b-cI7.text" = "當前金幣（個）";
+
+/* Class = "UILabel"; text = "本月已连续签到："; ObjectID = "KcT-N9-uro"; */
+"KcT-N9-uro.text" = "本月已連續簽到：";
+
+/* Class = "UIButton"; normalTitle = "查看签到规则"; ObjectID = "Lal-zX-MAf"; */
+"Lal-zX-MAf.normalTitle" = "查看簽到規則";
+
+/* Class = "UIButton"; normalTitle = "+50"; ObjectID = "LcF-Gq-Nrp"; */
+"LcF-Gq-Nrp.normalTitle" = "+50";
+
+/* Class = "UILabel"; text = "6天"; ObjectID = "dOH-JH-bRI"; */
+"dOH-JH-bRI.text" = "6天";
+
+/* Class = "UILabel"; text = "连续签满28天最高可得768金币"; ObjectID = "dsj-3r-Olb"; */
+"dsj-3r-Olb.text" = "連續簽滿28天最高可得768金幣";
+
+/* Class = "UIButton"; normalTitle = "开通会员  享金币加成"; ObjectID = "eBi-XJ-MGD"; */
+"eBi-XJ-MGD.normalTitle" = "開通會員  享金幣加成";
+
+/* Class = "UILabel"; text = "皇帝会员金币加成20"; ObjectID = "f1w-D7-fPC"; */
+"f1w-D7-fPC.text" = "皇帝会员金币加成20";
+
+/* Class = "UIButton"; normalTitle = "+10"; ObjectID = "hod-RJ-Tl4"; */
+"hod-RJ-Tl4.normalTitle" = "+10";
+
+/* Class = "UIButton"; normalTitle = "签到 +1"; ObjectID = "im6-X4-BhN"; */
+"im6-X4-BhN.normalTitle" = "签到 +1";

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WelfareCentreHeaderView" id="U6b-Vx-4bR" customClass="WelfareCentreHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LtQ-dE-do0">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welfare_section_title_1" translatesAutoresizingMaskIntoConstraints="NO" id="lMo-n8-KRX">
+                            <rect key="frame" x="0.0" y="0.5" width="175" height="55"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8r-yn-wVN">
+                            <rect key="frame" x="276.5" y="0.0" width="30.5" height="56"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="更多" image="home_more_icon">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="y8r-yn-wVN" secondAttribute="bottom" id="E1w-iN-AOC"/>
+                        <constraint firstItem="lMo-n8-KRX" firstAttribute="centerY" secondItem="LtQ-dE-do0" secondAttribute="centerY" id="MyS-Gm-mxu"/>
+                        <constraint firstItem="lMo-n8-KRX" firstAttribute="leading" secondItem="LtQ-dE-do0" secondAttribute="leading" id="VEv-Nn-Dy0"/>
+                        <constraint firstAttribute="trailing" secondItem="y8r-yn-wVN" secondAttribute="trailing" constant="13" id="ZGd-Iy-oO3"/>
+                        <constraint firstItem="y8r-yn-wVN" firstAttribute="top" secondItem="LtQ-dE-do0" secondAttribute="top" id="eLA-Ck-mzH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LtQ-dE-do0" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="8GK-M0-yGF"/>
+                <constraint firstItem="LtQ-dE-do0" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="fU2-Uf-aCb"/>
+                <constraint firstAttribute="bottom" secondItem="LtQ-dE-do0" secondAttribute="bottom" id="tZV-0C-q11"/>
+                <constraint firstAttribute="trailing" secondItem="LtQ-dE-do0" secondAttribute="trailing" id="wY3-7d-af3"/>
+            </constraints>
+            <connections>
+                <outlet property="icon" destination="lMo-n8-KRX" id="xx2-MT-zmu"/>
+                <outlet property="moreButton" destination="y8r-yn-wVN" id="4yl-H9-PIh"/>
+                <outlet property="radiusView" destination="LtQ-dE-do0" id="IQc-9R-DG8"/>
+            </connections>
+            <point key="canvasLocation" x="-14" y="84"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="home_more_icon" width="5.5" height="10"/>
+        <image name="welfare_section_title_1" width="175" height="55"/>
+    </resources>
+</document>

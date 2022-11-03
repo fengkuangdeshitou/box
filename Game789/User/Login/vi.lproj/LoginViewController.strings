@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "接受免除或者限制责任、诉讼管辖约定等粗体标示条款"; ObjectID = "6v5-UE-KaB"; */
+"6v5-UE-KaB.text" = "接受免除或者限制责任、诉讼管辖约定等粗体标示条款";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "BBn-El-Mbh"; */
+"BBn-El-Mbh.placeholder" = "请输入验证码";
+
+/* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "K6r-sn-Fmg"; */
+"K6r-sn-Fmg.normalTitle" = "《用户协议》";
+
+/* Class = "UILabel"; text = "未注册用户可直接注册登录"; ObjectID = "OQA-sZ-uWS"; */
+"OQA-sZ-uWS.text" = "未注册用户可直接注册登录";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "PhY-x5-zhF"; */
+"PhY-x5-zhF.normalTitle" = "获取验证码";
+
+/* Class = "UILabel"; text = "登录即您代表同意"; ObjectID = "T4K-g9-Ota"; */
+"T4K-g9-Ota.text" = "登录即您代表同意";
+
+/* Class = "UITextField"; placeholder = "请输入手机"; ObjectID = "fvX-ep-blv"; */
+"fvX-ep-blv.placeholder" = "请输入手机";
+
+/* Class = "UIButton"; normalTitle = "一键登录>"; ObjectID = "hJG-c7-M5Y"; */
+"hJG-c7-M5Y.normalTitle" = "一键登录>";
+
+/* Class = "UIButton"; normalTitle = " 86"; ObjectID = "jOG-UI-OW5"; */
+"jOG-UI-OW5.normalTitle" = " 86";
+
+/* Class = "UIButton"; normalTitle = "《 隐私政策》"; ObjectID = "qBQ-e9-jso"; */
+"qBQ-e9-jso.normalTitle" = "《 隐私政策》";
+
+/* Class = "UILabel"; text = "、"; ObjectID = "rmU-SS-vsa"; */
+"rmU-SS-vsa.text" = "、";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "tjL-8n-pKw"; */
+"tjL-8n-pKw.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "验证码"; ObjectID = "uX8-JQ-VeN"; */
+"uX8-JQ-VeN.text" = "验证码";

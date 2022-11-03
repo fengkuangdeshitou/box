@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MyBuyInputCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="103" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="103" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEe-SR-wV7">
+                        <rect key="frame" x="0.0" y="0.0" width="103" height="130"/>
+                        <string key="text">至尊版
+邀请码</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstItem="mEe-SR-wV7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6hy-Ah-NV0"/>
+                <constraint firstAttribute="bottom" secondItem="mEe-SR-wV7" secondAttribute="bottom" id="Tzp-qt-k8d"/>
+                <constraint firstAttribute="trailing" secondItem="mEe-SR-wV7" secondAttribute="trailing" id="U6J-18-wy5"/>
+                <constraint firstItem="mEe-SR-wV7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="esn-9X-hBn"/>
+            </constraints>
+            <size key="customSize" width="103" height="130"/>
+            <connections>
+                <outlet property="titleLabel" destination="mEe-SR-wV7" id="Yae-yE-8L8"/>
+            </connections>
+            <point key="canvasLocation" x="171.53846153846152" y="36.96682464454976"/>
+        </collectionViewCell>
+    </objects>
+</document>

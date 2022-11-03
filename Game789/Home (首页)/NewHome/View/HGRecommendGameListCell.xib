@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HGRecommendGameListCell">
+            <rect key="frame" x="0.0" y="0.0" width="97" height="139"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="97" height="139"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_icon" translatesAutoresizingMaskIntoConstraints="NO" id="6RO-9o-lGD" customClass="YYAnimatedImageView">
+                        <rect key="frame" x="14.5" y="0.0" width="68" height="68"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="68" id="l9D-sj-Iyf"/>
+                            <constraint firstAttribute="width" constant="68" id="xAI-Sx-tcY"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_show_discount_bg" translatesAutoresizingMaskIntoConstraints="NO" id="aLo-7E-vAb">
+                        <rect key="frame" x="50" y="0.0" width="32.5" height="13.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.5折" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxF-lQ-d03">
+                        <rect key="frame" x="50" y="0.0" width="32.5" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="饥饿鲨生存进 化（测试版）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLa-aW-tBF">
+                        <rect key="frame" x="0.0" y="80" width="97" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="1hd-ta-QfH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MMO·传奇" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zv-OE-6Lg">
+                        <rect key="frame" x="0.0" y="100" width="97" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="11" id="xJ9-aN-8vy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6G-RU-MuI">
+                        <rect key="frame" x="35" y="117" width="27" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="2rV-zj-qE1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="10"/>
+                        <color key="textColor" red="0.58039215690000001" green="0.38823529410000002" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="aLo-7E-vAb" firstAttribute="trailing" secondItem="6RO-9o-lGD" secondAttribute="trailing" id="7BH-wC-Klk"/>
+                <constraint firstItem="aLo-7E-vAb" firstAttribute="centerX" secondItem="dxF-lQ-d03" secondAttribute="centerX" id="BoY-8s-joN"/>
+                <constraint firstItem="aLo-7E-vAb" firstAttribute="top" secondItem="dxF-lQ-d03" secondAttribute="top" id="Dug-5a-HVP"/>
+                <constraint firstItem="6RO-9o-lGD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ed6-UA-QGV"/>
+                <constraint firstItem="v6G-RU-MuI" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Gzl-78-eYP"/>
+                <constraint firstItem="6RO-9o-lGD" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="IVn-We-DbR"/>
+                <constraint firstItem="aLo-7E-vAb" firstAttribute="leading" secondItem="dxF-lQ-d03" secondAttribute="leading" id="InN-3u-sSg"/>
+                <constraint firstAttribute="trailing" secondItem="BLa-aW-tBF" secondAttribute="trailing" id="KH0-YW-Xvn"/>
+                <constraint firstAttribute="trailing" secondItem="4Zv-OE-6Lg" secondAttribute="trailing" id="Qno-Xp-aex"/>
+                <constraint firstItem="4Zv-OE-6Lg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Yr1-vY-oTm"/>
+                <constraint firstItem="v6G-RU-MuI" firstAttribute="top" secondItem="4Zv-OE-6Lg" secondAttribute="bottom" constant="6" id="aUZ-4f-hg1"/>
+                <constraint firstItem="4Zv-OE-6Lg" firstAttribute="centerX" secondItem="BLa-aW-tBF" secondAttribute="centerX" id="cWH-GB-hQt"/>
+                <constraint firstItem="v6G-RU-MuI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="leading" id="enE-xz-Je6"/>
+                <constraint firstItem="BLa-aW-tBF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="f5l-Bb-9WK"/>
+                <constraint firstItem="4Zv-OE-6Lg" firstAttribute="top" secondItem="BLa-aW-tBF" secondAttribute="bottom" constant="7" id="hTa-xJ-HBl"/>
+                <constraint firstItem="BLa-aW-tBF" firstAttribute="top" secondItem="6RO-9o-lGD" secondAttribute="bottom" constant="12" id="jzG-Ro-A3x"/>
+                <constraint firstItem="aLo-7E-vAb" firstAttribute="top" secondItem="6RO-9o-lGD" secondAttribute="top" id="rh4-Nh-oDY"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="v6G-RU-MuI" secondAttribute="trailing" id="rmo-TA-Ffh"/>
+                <constraint firstItem="aLo-7E-vAb" firstAttribute="centerY" secondItem="dxF-lQ-d03" secondAttribute="centerY" id="s3X-9X-OAt"/>
+            </constraints>
+            <size key="customSize" width="140" height="178"/>
+            <connections>
+                <outlet property="discountBg" destination="aLo-7E-vAb" id="icb-e9-y9x"/>
+                <outlet property="gameIcon" destination="6RO-9o-lGD" id="PJM-aP-KBA"/>
+                <outlet property="gameName" destination="BLa-aW-tBF" id="anQ-WL-mON"/>
+                <outlet property="nameRemark" destination="v6G-RU-MuI" id="9Q6-z8-Kuj"/>
+                <outlet property="showDiscount" destination="dxF-lQ-d03" id="skN-bn-GUh"/>
+                <outlet property="showGameType" destination="4Zv-OE-6Lg" id="icH-bv-v66"/>
+            </connections>
+            <point key="canvasLocation" x="165.94202898550725" y="185.82589285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="game_icon" width="47.5" height="47.5"/>
+        <image name="home_show_discount_bg" width="32.5" height="13.5"/>
+    </resources>
+</document>

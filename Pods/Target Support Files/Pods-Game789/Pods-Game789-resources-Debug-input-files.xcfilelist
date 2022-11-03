@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-Game789/Pods-Game789-resources.sh
+${PODS_ROOT}/LCTabBarController/LCTabBarController/LCTabBarController.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SJBaseVideoPlayer/SJBaseVideoPlayer/SJDeviceVolumeAndBrightnessManager/ResourceLoader/SJDeviceVolumeAndBrightnessManager.bundle
+${PODS_ROOT}/SJVideoPlayer/SJVideoPlayer/SJEdgeControlLayer/ResourceLoader/SJEdgeControlLayer.bundle
+${PODS_ROOT}/SJVideoPlayer/SJVideoPlayer/SJFilmEditingControlLayer/ResourceLoader/SJFilmEditing.bundle
+${PODS_ROOT}/UMShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle
+${PODS_ROOT}/UMVerify/UMVerify/ATAuthSDK.bundle
+${PODS_ROOT}/YBImageBrowser/YBImageBrowser/YBImageBrowser.bundle

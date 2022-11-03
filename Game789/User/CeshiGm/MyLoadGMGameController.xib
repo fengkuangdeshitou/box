@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyLoadGMGameController">
+            <connections>
+                <outlet property="cp_channelid" destination="qhr-5f-HES" id="CuF-Mw-uQr"/>
+                <outlet property="cp_channelid_top" destination="WfD-Gg-rqS" id="GRc-5F-Z2I"/>
+                <outlet property="cp_gameid" destination="bQA-KF-Dux" id="9fq-fw-Is2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入cp渠道ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qhr-5f-HES">
+                    <rect key="frame" x="30" y="64" width="354" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="EgN-uf-B8Z"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qjw-5r-Zd4">
+                    <rect key="frame" x="30" y="108" width="354" height="0.5"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="0Ra-2W-tYR"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入cp游戏ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bQA-KF-Dux">
+                    <rect key="frame" x="30" y="116.5" width="354" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="HXC-2q-xjw"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mGi-ZK-HAh">
+                    <rect key="frame" x="30" y="160.5" width="354" height="0.5"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="wt8-QN-fx3"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9e9-zW-zUs">
+                    <rect key="frame" x="107" y="211" width="200" height="44"/>
+                    <color key="backgroundColor" red="0.9620515704" green="0.51649260519999995" blue="0.17597135899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="lsk-vP-XBy"/>
+                        <constraint firstAttribute="width" constant="200" id="vTl-p8-IKy"/>
+                    </constraints>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sureClick:" destination="-1" eventType="touchUpInside" id="zLY-zR-ZGq"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mGi-ZK-HAh" firstAttribute="leading" secondItem="bQA-KF-Dux" secondAttribute="leading" id="0ej-vz-BaB"/>
+                <constraint firstItem="bQA-KF-Dux" firstAttribute="top" secondItem="Qjw-5r-Zd4" secondAttribute="bottom" constant="8" id="1rS-xv-KBD"/>
+                <constraint firstItem="Qjw-5r-Zd4" firstAttribute="leading" secondItem="qhr-5f-HES" secondAttribute="leading" id="Alc-Id-JE0"/>
+                <constraint firstItem="mGi-ZK-HAh" firstAttribute="centerX" secondItem="qhr-5f-HES" secondAttribute="centerX" id="DVR-DZ-Sxi"/>
+                <constraint firstItem="9e9-zW-zUs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HTj-Qa-2dg"/>
+                <constraint firstItem="Qjw-5r-Zd4" firstAttribute="centerX" secondItem="qhr-5f-HES" secondAttribute="centerX" id="Pa5-fl-nff"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="qhr-5f-HES" secondAttribute="trailing" constant="30" id="Stm-mK-GbH"/>
+                <constraint firstItem="qhr-5f-HES" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="WfD-Gg-rqS"/>
+                <constraint firstItem="9e9-zW-zUs" firstAttribute="top" secondItem="mGi-ZK-HAh" secondAttribute="bottom" constant="50" id="cGF-p2-NQI"/>
+                <constraint firstItem="Qjw-5r-Zd4" firstAttribute="top" secondItem="qhr-5f-HES" secondAttribute="bottom" id="f4p-jG-eNP"/>
+                <constraint firstItem="mGi-ZK-HAh" firstAttribute="centerX" secondItem="bQA-KF-Dux" secondAttribute="centerX" id="jgF-4U-3jk"/>
+                <constraint firstItem="qhr-5f-HES" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="rot-RR-9cx"/>
+                <constraint firstItem="mGi-ZK-HAh" firstAttribute="top" secondItem="bQA-KF-Dux" secondAttribute="bottom" id="vfD-i0-EmF"/>
+                <constraint firstItem="bQA-KF-Dux" firstAttribute="leading" secondItem="qhr-5f-HES" secondAttribute="leading" id="wuT-Hr-2oh"/>
+                <constraint firstItem="bQA-KF-Dux" firstAttribute="centerX" secondItem="qhr-5f-HES" secondAttribute="centerX" id="yFc-Ve-HCY"/>
+                <constraint firstItem="mGi-ZK-HAh" firstAttribute="leading" secondItem="qhr-5f-HES" secondAttribute="leading" id="zUQ-fc-faH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

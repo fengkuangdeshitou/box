@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyLimitedBuyGetCoinView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7P-Zz-60O">
+                    <rect key="frame" x="89.5" y="319" width="235" height="258.5"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="limited_buy_tip_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Ffh-JI-xp5">
+                            <rect key="frame" x="0.0" y="0.0" width="235" height="82"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWl-cH-YBf">
+                            <rect key="frame" x="8" y="87" width="219" height="106"/>
+                            <attributedString key="attributedText">
+                                <fragment>
+                                    <string key="content">1.每日签到；
+2.新手任务/每日任务/成就任务/试玩任务；
+3.邀请好友赚金币；
+4.平台运营活动。</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6LM-TW-9qv">
+                            <rect key="frame" x="0.0" y="208.5" width="235" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="P4M-gI-xx9"/>
+                            </constraints>
+                            <state key="normal" title="好的">
+                                <color key="titleColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="sureBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="OD7-SU-8cm"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94U-2u-edv">
+                            <rect key="frame" x="0.0" y="208" width="235" height="0.5"/>
+                            <color key="backgroundColor" red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="gsz-29-7Bg"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="获取金币的几种方式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRT-2K-srL">
+                            <rect key="frame" x="44" y="31" width="147" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="TRT-2K-srL" firstAttribute="centerY" secondItem="Ffh-JI-xp5" secondAttribute="centerY" id="36i-6p-nTe"/>
+                        <constraint firstItem="TRT-2K-srL" firstAttribute="centerX" secondItem="c7P-Zz-60O" secondAttribute="centerX" id="863-0w-Mmz"/>
+                        <constraint firstItem="6LM-TW-9qv" firstAttribute="centerX" secondItem="c7P-Zz-60O" secondAttribute="centerX" id="9vT-J4-YOX"/>
+                        <constraint firstItem="Ffh-JI-xp5" firstAttribute="top" secondItem="c7P-Zz-60O" secondAttribute="top" id="IhQ-ME-XxH"/>
+                        <constraint firstAttribute="bottom" secondItem="6LM-TW-9qv" secondAttribute="bottom" id="JOx-4b-r9t"/>
+                        <constraint firstAttribute="trailing" secondItem="94U-2u-edv" secondAttribute="trailing" id="N7s-mv-J1w"/>
+                        <constraint firstItem="SWl-cH-YBf" firstAttribute="leading" secondItem="c7P-Zz-60O" secondAttribute="leading" constant="8" id="R0S-qu-55F"/>
+                        <constraint firstItem="Ffh-JI-xp5" firstAttribute="leading" secondItem="c7P-Zz-60O" secondAttribute="leading" id="Sgu-1W-ffj"/>
+                        <constraint firstItem="6LM-TW-9qv" firstAttribute="top" secondItem="94U-2u-edv" secondAttribute="bottom" id="Xw8-s2-S87"/>
+                        <constraint firstItem="6LM-TW-9qv" firstAttribute="leading" secondItem="c7P-Zz-60O" secondAttribute="leading" id="b5T-y6-vy6"/>
+                        <constraint firstItem="94U-2u-edv" firstAttribute="top" secondItem="SWl-cH-YBf" secondAttribute="bottom" constant="15" id="bDT-S0-4RE"/>
+                        <constraint firstItem="94U-2u-edv" firstAttribute="leading" secondItem="c7P-Zz-60O" secondAttribute="leading" id="hiw-ZI-yOM"/>
+                        <constraint firstAttribute="width" constant="235" id="kOA-LU-WRU"/>
+                        <constraint firstAttribute="trailing" secondItem="Ffh-JI-xp5" secondAttribute="trailing" id="lyi-S0-NMc"/>
+                        <constraint firstItem="SWl-cH-YBf" firstAttribute="top" secondItem="Ffh-JI-xp5" secondAttribute="bottom" constant="5" id="tGP-r9-ZUF"/>
+                        <constraint firstAttribute="trailing" secondItem="SWl-cH-YBf" secondAttribute="trailing" constant="8" id="tn8-Mb-Tq2"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="c7P-Zz-60O" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="0pr-cY-CDX"/>
+                <constraint firstItem="c7P-Zz-60O" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="yUR-T2-ZhS"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="136.60714285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="limited_buy_tip_bg" width="235" height="82"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

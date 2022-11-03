@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "86"; ObjectID = "1kV-zs-Q2H"; */
+"1kV-zs-Q2H.normalTitle" = "86";
+
+/* Class = "UIButton"; normalTitle = "确认找回"; ObjectID = "36p-Gc-Nad"; */
+"36p-Gc-Nad.normalTitle" = "确认找回";
+
+/* Class = "UILabel"; text = "新密码"; ObjectID = "Dgj-q8-v5m"; */
+"Dgj-q8-v5m.text" = "新密码";
+
+/* Class = "UILabel"; text = "验证码"; ObjectID = "KV3-0R-8Cw"; */
+"KV3-0R-8Cw.text" = "验证码";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "MuS-1S-mnT"; */
+"MuS-1S-mnT.placeholder" = "请输入验证码";
+
+/* Class = "UITextField"; placeholder = "请输入手机号"; ObjectID = "Zs8-EC-l6b"; */
+"Zs8-EC-l6b.placeholder" = "请输入手机号";
+
+/* Class = "UITextField"; placeholder = "请设置登录密码"; ObjectID = "iP5-1m-FLB"; */
+"iP5-1m-FLB.placeholder" = "请设置登录密码";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "tNk-4s-R7m"; */
+"tNk-4s-R7m.normalTitle" = "发送验证码";

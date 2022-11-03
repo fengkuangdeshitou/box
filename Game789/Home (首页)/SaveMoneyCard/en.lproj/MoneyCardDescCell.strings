@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "立即购买"; ObjectID = "67t-rq-6z9"; */
+"67t-rq-6z9.normalTitle" = "立即購買";
+
+/* Class = "UILabel"; text = "全体用户；"; ObjectID = "PSN-j0-lz6"; */
+"PSN-j0-lz6.text" = "全體用戶；";
+
+/* Class = "UILabel"; text = "·续费说明："; ObjectID = "Smx-nM-ft8"; */
+"Smx-nM-ft8.text" = "·續費說明：";
+
+/* Class = "UILabel"; text = "·购买说明："; ObjectID = "fmX-Gd-mGy"; */
+"fmX-Gd-mGy.text" = "·購買說明：";
+
+/* Class = "UILabel"; text = "满6减6券*每天1张"; ObjectID = "im9-OY-Nf4"; */
+"im9-OY-Nf4.text" = "滿6減6券*每天1張";
+
+/* Class = "UILabel"; text = "·有效时间："; ObjectID = "jHY-me-5Us"; */
+"jHY-me-5Us.text" = "·有效時間：";
+
+/* Class = "UILabel"; text = "·面向用户："; ObjectID = "m3X-9b-8nJ"; */
+"m3X-9b-8nJ.text" = "·面向用户：";
+
+/* Class = "UILabel"; text = "开通成功后，当日立即获得满6减6元代金券，之后每日01:10分发放1张代金券。"; ObjectID = "mkF-Qu-FZA"; */
+"mkF-Qu-FZA.text" = "開通成功後，當日立即獲得滿6減6元代金券，之後每日01:10分發放1張代金券。";
+
+/* Class = "UILabel"; text = "续费后月卡/周卡/季卡时间将延长，在月卡/周卡/季卡有效期内每日发放1张代金券。月卡/周卡/季卡发放数量有限。"; ObjectID = "tQR-Ik-Jel"; */
+"tQR-Ik-Jel.text" = "續費後月卡/周卡/季卡時間將延長，在月卡/周卡/季卡有效期內每日發放1張代金券。月卡/周卡/季卡發放數量有限。";
+
+/* Class = "UILabel"; text = "代金券有效期7天；"; ObjectID = "urN-eU-MOL"; */
+"urN-eU-MOL.text" = "代金券有效期7天；";
+
+/* Class = "UILabel"; text = "购买省钱月卡可免费领取至尊版特权，拒绝频繁掉签烦恼，使用更加稳定"; ObjectID = "wKe-i0-30L"; */
+"wKe-i0-30L.text" = "購買省錢月卡可免費領取至尊版特權，拒絕頻繁掉簽煩惱，使用更加穩定";
+
+/* Class = "UILabel"; text = "仅支持BT游戏"; ObjectID = "xcO-dL-2v1"; */
+"xcO-dL-2v1.text" = "僅支持BT遊戲";

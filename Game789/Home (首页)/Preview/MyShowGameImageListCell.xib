@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MyShowGameImageListCell">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hPa-n3-rFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="140"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a7-Bc-TCE">
+                        <rect key="frame" x="27.5" y="52.5" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="5Mf-XG-0Pt"/>
+                            <constraint firstAttribute="height" constant="35" id="80f-WT-9p5"/>
+                        </constraints>
+                        <state key="normal" image="VideoPreviewPlay"/>
+                        <connections>
+                            <action selector="playButtonClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="czM-tJ-sVd"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="hPa-n3-rFJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="X6x-kl-Sec"/>
+                <constraint firstAttribute="bottom" secondItem="hPa-n3-rFJ" secondAttribute="bottom" id="Zd1-9S-JHX"/>
+                <constraint firstItem="hPa-n3-rFJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aF3-6g-7Sn"/>
+                <constraint firstAttribute="trailing" secondItem="hPa-n3-rFJ" secondAttribute="trailing" id="jF8-wN-V1U"/>
+                <constraint firstItem="9a7-Bc-TCE" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="sxu-4V-gjS"/>
+                <constraint firstItem="9a7-Bc-TCE" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="wSp-Ux-SGv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="162" height="270"/>
+            <connections>
+                <outlet property="gameScreenIamge" destination="hPa-n3-rFJ" id="7de-Bq-MHF"/>
+                <outlet property="playButton" destination="9a7-Bc-TCE" id="dz1-1e-9ze"/>
+            </connections>
+            <point key="canvasLocation" x="168" y="150"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="VideoPreviewPlay" width="85" height="85"/>
+    </resources>
+</document>

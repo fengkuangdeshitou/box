@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="CloudGameSuspensionView">
+            <rect key="frame" x="0.0" y="0.0" width="146" height="36"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQ7-b0-25f">
+                    <rect key="frame" x="0.0" y="0.0" width="146" height="36"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nI9-rN-OyB">
+                            <rect key="frame" x="16" y="0.0" width="35" height="36"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <state key="normal" title="画质" image="change_clarity_icon">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="imageQualityAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Fwc-lB-Jjb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kth-4y-YIY">
+                            <rect key="frame" x="59" y="0.0" width="37" height="36"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="退出" image="return_game_icon">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="exitAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="GPf-hE-2yV"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="kth-4y-YIY" secondAttribute="bottom" id="Wfg-SV-oxb"/>
+                        <constraint firstItem="kth-4y-YIY" firstAttribute="top" secondItem="LQ7-b0-25f" secondAttribute="top" id="WyJ-RO-l89"/>
+                        <constraint firstItem="nI9-rN-OyB" firstAttribute="top" secondItem="LQ7-b0-25f" secondAttribute="top" id="inO-jC-bAX"/>
+                        <constraint firstItem="kth-4y-YIY" firstAttribute="leading" secondItem="nI9-rN-OyB" secondAttribute="trailing" constant="8" id="kPq-iS-hDh"/>
+                        <constraint firstAttribute="trailing" secondItem="kth-4y-YIY" secondAttribute="trailing" constant="50" id="tl3-YV-srO"/>
+                        <constraint firstAttribute="bottom" secondItem="nI9-rN-OyB" secondAttribute="bottom" id="u6A-V6-xo6"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kew-Pn-nwY">
+                    <rect key="frame" x="110" y="0.0" width="36" height="36"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kew-Pn-nwY" secondAttribute="height" multiplier="6:6" id="Mxn-C8-M32"/>
+                    </constraints>
+                    <state key="normal" image="open_fuction_icon"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="18"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="rotatingAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="UaB-We-gSh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LQ7-b0-25f" secondAttribute="trailing" id="B4C-Da-TQW"/>
+                <constraint firstItem="kew-Pn-nwY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="I8a-zC-BF4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="kew-Pn-nwY" secondAttribute="bottom" id="JTx-9w-8CU"/>
+                <constraint firstItem="LQ7-b0-25f" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PPp-ob-3M4"/>
+                <constraint firstAttribute="trailing" secondItem="kew-Pn-nwY" secondAttribute="trailing" id="SpD-mI-aQZ"/>
+                <constraint firstAttribute="bottom" secondItem="LQ7-b0-25f" secondAttribute="bottom" id="aih-QQ-Apb"/>
+                <constraint firstItem="LQ7-b0-25f" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="m3Z-Ho-I3x"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="clarityBtn" destination="nI9-rN-OyB" id="3Qv-TE-mEa"/>
+                <outlet property="contentView" destination="LQ7-b0-25f" id="dFF-Ef-lg6"/>
+                <outlet property="returnBtn" destination="kth-4y-YIY" id="JQj-Bo-Hlg"/>
+            </connections>
+            <point key="canvasLocation" x="149.27536231884059" y="72.991071428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="change_clarity_icon" width="14" height="14"/>
+        <image name="open_fuction_icon" width="14" height="14"/>
+        <image name="return_game_icon" width="14" height="14"/>
+    </resources>
+</document>

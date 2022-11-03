@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyVoucherUseIntroView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KV1-nQ-9Md">
+                    <rect key="frame" x="60" y="283" width="294" height="330"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8R2-Ee-vqY">
+                            <rect key="frame" x="0.0" y="280.5" width="294" height="0.5"/>
+                            <color key="backgroundColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="Ndh-mk-SzK"/>
+                            </constraints>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_voucher_use_intro" translatesAutoresizingMaskIntoConstraints="NO" id="ZGV-AR-7Fz">
+                            <rect key="frame" x="119" y="18" width="56" height="58.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="56" id="Bq9-BB-Gjk"/>
+                                <constraint firstAttribute="height" constant="58.5" id="rKj-0E-yW9"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用方法" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WK-fq-e4Z">
+                            <rect key="frame" x="110.5" y="85.5" width="73.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="djH-1d-mS8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8mk-H0-iMg">
+                            <rect key="frame" x="28" y="128" width="238" height="137.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <string key="text">1.使用App账号登录游戏；
+2.在游戏内购买道具；
+3.在支付页面选择可用的优惠券，完成支付。</string>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxh-Qx-a6d">
+                            <rect key="frame" x="0.0" y="281" width="294" height="49"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="49" id="jhd-pq-ivV"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="我知道了">
+                                <color key="titleColor" red="1" green="0.75294117647058822" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="closeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Pga-0y-dHu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="330" id="1yr-Ox-hfM"/>
+                        <constraint firstItem="8mk-H0-iMg" firstAttribute="centerX" secondItem="KV1-nQ-9Md" secondAttribute="centerX" id="3Qs-vw-sqt"/>
+                        <constraint firstItem="Qxh-Qx-a6d" firstAttribute="top" secondItem="8R2-Ee-vqY" secondAttribute="bottom" id="48p-Hw-eZl"/>
+                        <constraint firstItem="8R2-Ee-vqY" firstAttribute="top" secondItem="8mk-H0-iMg" secondAttribute="bottom" constant="15" id="5qi-ZJ-y2B"/>
+                        <constraint firstAttribute="trailing" secondItem="Qxh-Qx-a6d" secondAttribute="trailing" id="9xy-bo-QOM"/>
+                        <constraint firstItem="8R2-Ee-vqY" firstAttribute="leading" secondItem="KV1-nQ-9Md" secondAttribute="leading" id="E4P-pe-zZg"/>
+                        <constraint firstAttribute="bottom" secondItem="Qxh-Qx-a6d" secondAttribute="bottom" id="IDU-SM-Jwk"/>
+                        <constraint firstItem="8mk-H0-iMg" firstAttribute="top" secondItem="7WK-fq-e4Z" secondAttribute="bottom" constant="21.5" id="Kvn-ap-8qy"/>
+                        <constraint firstItem="7WK-fq-e4Z" firstAttribute="centerX" secondItem="KV1-nQ-9Md" secondAttribute="centerX" id="NGs-rt-6ej"/>
+                        <constraint firstItem="8mk-H0-iMg" firstAttribute="leading" secondItem="KV1-nQ-9Md" secondAttribute="leading" constant="28" id="Ruc-6F-dKv"/>
+                        <constraint firstItem="ZGV-AR-7Fz" firstAttribute="top" secondItem="KV1-nQ-9Md" secondAttribute="top" constant="18" id="SIg-0a-Ur8"/>
+                        <constraint firstItem="ZGV-AR-7Fz" firstAttribute="centerX" secondItem="KV1-nQ-9Md" secondAttribute="centerX" id="Ugm-LC-8LB"/>
+                        <constraint firstItem="Qxh-Qx-a6d" firstAttribute="centerX" secondItem="KV1-nQ-9Md" secondAttribute="centerX" id="Vtp-aR-QeP"/>
+                        <constraint firstAttribute="trailing" secondItem="8R2-Ee-vqY" secondAttribute="trailing" id="iIc-46-r1A"/>
+                        <constraint firstItem="7WK-fq-e4Z" firstAttribute="top" secondItem="ZGV-AR-7Fz" secondAttribute="bottom" constant="9" id="pwI-pJ-xJG"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3F-Ws-u0c">
+                    <rect key="frame" x="194.5" y="635" width="25.5" height="25.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25.5" id="Rab-t1-6aL"/>
+                        <constraint firstAttribute="width" constant="25.5" id="m6A-h2-d3J"/>
+                    </constraints>
+                    <state key="normal" image="game_voucher_close"/>
+                    <connections>
+                        <action selector="closeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="NMs-01-GH9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KV1-nQ-9Md" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4rK-di-Gtf"/>
+                <constraint firstItem="A3F-Ws-u0c" firstAttribute="top" secondItem="KV1-nQ-9Md" secondAttribute="bottom" constant="22" id="LU7-Zg-ydL"/>
+                <constraint firstItem="KV1-nQ-9Md" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MdF-y9-jEE"/>
+                <constraint firstItem="A3F-Ws-u0c" firstAttribute="centerX" secondItem="KV1-nQ-9Md" secondAttribute="centerX" id="OOA-5B-Sjl"/>
+                <constraint firstItem="KV1-nQ-9Md" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="60" id="PkV-jB-FOU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="textView" destination="8mk-H0-iMg" id="Mpx-Qc-SIe"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="127.90178571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="game_voucher_close" width="64" height="64"/>
+        <image name="user_voucher_use_intro" width="56" height="58.5"/>
+    </resources>
+</document>

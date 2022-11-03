@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HGNavbarSearchView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKV-cq-Qsq">
+                    <rect key="frame" x="348.66666666666669" y="9.6666666666666643" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="a8M-8A-oB6"/>
+                        <constraint firstAttribute="height" constant="25" id="bTD-eg-KHA"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                    <state key="normal" image="home_download_icon"/>
+                    <connections>
+                        <action selector="downloadBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="P47-gV-9FH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H60-Zf-iG6">
+                    <rect key="frame" x="378.66666666666669" y="9.6666666666666643" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="7bK-yL-1GO"/>
+                        <constraint firstAttribute="width" constant="25" id="eC3-dl-zcB"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="2.5" minY="2.5" maxX="2.5" maxY="2.5"/>
+                    <state key="normal" image="home_search_icon"/>
+                    <connections>
+                        <action selector="searchBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="1qL-T6-kgw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="YKV-cq-Qsq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="11U-PU-bm9"/>
+                <constraint firstItem="H60-Zf-iG6" firstAttribute="centerY" secondItem="YKV-cq-Qsq" secondAttribute="centerY" id="1zd-Mv-eSJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="H60-Zf-iG6" secondAttribute="trailing" constant="10.5" id="WyI-Bd-IsP"/>
+                <constraint firstItem="H60-Zf-iG6" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ngO-Mj-R5n"/>
+                <constraint firstItem="H60-Zf-iG6" firstAttribute="leading" secondItem="YKV-cq-Qsq" secondAttribute="trailing" constant="5" id="rdl-4q-fnB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="showBtn1" destination="YKV-cq-Qsq" id="5gF-g8-SuA"/>
+                <outlet property="showBtn2" destination="H60-Zf-iG6" id="e61-Yu-5Ei"/>
+            </connections>
+            <point key="canvasLocation" x="170" y="-510"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_download_icon" width="26" height="26"/>
+        <image name="home_search_icon" width="26" height="26"/>
+    </resources>
+</document>

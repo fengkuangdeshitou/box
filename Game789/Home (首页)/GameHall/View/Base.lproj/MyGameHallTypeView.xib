@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyGameHallTypeView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RWz-Y8-9EX">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+                    <subviews>
+                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lry-Ss-2Xw">
+                            <rect key="frame" x="0.0" y="0.0" width="138" height="88"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="BT游戏" image="game_type_bt">
+                                <color key="titleColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="typeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="czF-pA-pKy"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwZ-PR-Yx8">
+                            <rect key="frame" x="138" y="0.0" width="138" height="88"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="138" id="ceZ-LG-Kw9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="折扣游戏" image="game_type_discount">
+                                <color key="titleColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="typeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="9Iv-yn-dkw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mn5-de-KVT">
+                            <rect key="frame" x="276" y="0.0" width="138" height="88"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="138" id="uia-nO-Nf2"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="H5游戏" image="game_type_h5">
+                                <color key="titleColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="typeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="PpU-Cy-7tX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="88" id="0cP-Ne-2L2"/>
+                        <constraint firstItem="cwZ-PR-Yx8" firstAttribute="top" secondItem="RWz-Y8-9EX" secondAttribute="top" id="9Kb-c7-5ii"/>
+                        <constraint firstAttribute="bottom" secondItem="cwZ-PR-Yx8" secondAttribute="bottom" id="Gkb-N5-Jkc"/>
+                        <constraint firstItem="mn5-de-KVT" firstAttribute="leading" secondItem="cwZ-PR-Yx8" secondAttribute="trailing" id="GtG-KS-j24"/>
+                        <constraint firstItem="mn5-de-KVT" firstAttribute="height" secondItem="lry-Ss-2Xw" secondAttribute="height" id="NxC-qd-Eah"/>
+                        <constraint firstItem="cwZ-PR-Yx8" firstAttribute="leading" secondItem="lry-Ss-2Xw" secondAttribute="trailing" id="Yj7-2d-Y7Y"/>
+                        <constraint firstItem="mn5-de-KVT" firstAttribute="centerY" secondItem="lry-Ss-2Xw" secondAttribute="centerY" id="b3s-cL-DG3"/>
+                        <constraint firstItem="cwZ-PR-Yx8" firstAttribute="centerY" secondItem="lry-Ss-2Xw" secondAttribute="centerY" id="bwn-7v-pFx"/>
+                        <constraint firstAttribute="trailing" secondItem="mn5-de-KVT" secondAttribute="trailing" id="c4y-ez-p0l"/>
+                        <constraint firstItem="lry-Ss-2Xw" firstAttribute="leading" secondItem="RWz-Y8-9EX" secondAttribute="leading" id="ffR-A5-YUk"/>
+                        <constraint firstItem="lry-Ss-2Xw" firstAttribute="centerY" secondItem="RWz-Y8-9EX" secondAttribute="centerY" id="uGq-Ca-G78"/>
+                        <constraint firstItem="cwZ-PR-Yx8" firstAttribute="height" secondItem="lry-Ss-2Xw" secondAttribute="height" id="v29-Bx-xo7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RWz-Y8-9EX" secondAttribute="trailing" id="P5J-Bk-uPA"/>
+                <constraint firstItem="RWz-Y8-9EX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="W7N-2Q-NeL"/>
+                <constraint firstItem="RWz-Y8-9EX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aGw-Tt-5wV"/>
+            </constraints>
+            <connections>
+                <outlet property="backView" destination="RWz-Y8-9EX" id="fx5-W3-Djr"/>
+                <outlet property="backView_top" destination="aGw-Tt-5wV" id="O9g-Wf-3PC"/>
+                <outlet property="typeBtn1" destination="lry-Ss-2Xw" id="xEK-SC-pzR"/>
+                <outlet property="typeBtn2" destination="cwZ-PR-Yx8" id="uov-IR-m8q"/>
+                <outlet property="typeBtn2Width" destination="ceZ-LG-Kw9" id="oc7-7T-Jdi"/>
+                <outlet property="typeBtn3" destination="mn5-de-KVT" id="d4b-XK-sVw"/>
+                <outlet property="typeBtn3Width" destination="uia-nO-Nf2" id="xah-iO-Cnl"/>
+            </connections>
+            <point key="canvasLocation" x="-80" y="-145"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="game_type_bt" width="47" height="40"/>
+        <image name="game_type_discount" width="47" height="40"/>
+        <image name="game_type_h5" width="47" height="40"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

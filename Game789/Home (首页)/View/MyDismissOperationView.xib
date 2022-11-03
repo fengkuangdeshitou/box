@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyDismissOperationView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6u-J0-A6h">
+                    <rect key="frame" x="67.5" y="266" width="279" height="324"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dismiss_operation_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Cvw-xc-NSV">
+                            <rect key="frame" x="86" y="26" width="107" height="106"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="温馨提示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7C-Ic-eDO">
+                            <rect key="frame" x="103" y="158" width="73.5" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您交易的XXXX游戏现被平台驳回，具体原因见详情！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZr-nL-Un8">
+                            <rect key="frame" x="20" y="205" width="239" height="33.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="HFV-3q-eDK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CUJ-Td-Oug">
+                            <rect key="frame" x="0.0" y="273.5" width="279" height="0.5"/>
+                            <color key="backgroundColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="ZxM-Fc-xeW"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03S-0N-YIv">
+                            <rect key="frame" x="0.0" y="274" width="279" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="2YU-FW-7kK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <state key="normal" title="立即查看">
+                                <color key="titleColor" red="0.99607843137254903" green="0.66666666666666663" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="bottomButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="0xT-TD-ob8"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="CUJ-Td-Oug" firstAttribute="top" secondItem="DZr-nL-Un8" secondAttribute="bottom" constant="35" id="0qa-SG-nQm"/>
+                        <constraint firstAttribute="trailing" secondItem="DZr-nL-Un8" secondAttribute="trailing" constant="20" id="7g9-Mw-WD5"/>
+                        <constraint firstItem="Cvw-xc-NSV" firstAttribute="centerX" secondItem="H6u-J0-A6h" secondAttribute="centerX" id="9Bd-eG-tvE"/>
+                        <constraint firstItem="M7C-Ic-eDO" firstAttribute="top" secondItem="Cvw-xc-NSV" secondAttribute="bottom" constant="26" id="I1I-aH-RE2"/>
+                        <constraint firstAttribute="trailing" secondItem="CUJ-Td-Oug" secondAttribute="trailing" id="KqC-Ck-EL8"/>
+                        <constraint firstItem="M7C-Ic-eDO" firstAttribute="centerX" secondItem="H6u-J0-A6h" secondAttribute="centerX" id="Lo7-Qm-3iz"/>
+                        <constraint firstAttribute="bottom" secondItem="03S-0N-YIv" secondAttribute="bottom" id="PLV-Jb-ctE"/>
+                        <constraint firstItem="03S-0N-YIv" firstAttribute="leading" secondItem="H6u-J0-A6h" secondAttribute="leading" id="WY8-FX-bYQ"/>
+                        <constraint firstItem="Cvw-xc-NSV" firstAttribute="top" secondItem="H6u-J0-A6h" secondAttribute="top" constant="26" id="Xoh-F5-HUS"/>
+                        <constraint firstItem="DZr-nL-Un8" firstAttribute="centerX" secondItem="H6u-J0-A6h" secondAttribute="centerX" id="dYr-AC-UAc"/>
+                        <constraint firstAttribute="trailing" secondItem="03S-0N-YIv" secondAttribute="trailing" id="i0G-Ki-tk8"/>
+                        <constraint firstItem="03S-0N-YIv" firstAttribute="top" secondItem="CUJ-Td-Oug" secondAttribute="bottom" id="tIg-Nq-2L2"/>
+                        <constraint firstItem="DZr-nL-Un8" firstAttribute="top" secondItem="M7C-Ic-eDO" secondAttribute="bottom" constant="26" id="yiN-i0-b0K"/>
+                        <constraint firstItem="CUJ-Td-Oug" firstAttribute="leading" secondItem="H6u-J0-A6h" secondAttribute="leading" id="yty-br-oUA"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhE-zT-ZRf">
+                    <rect key="frame" x="177" y="590" width="60" height="119"/>
+                    <state key="normal" image="update_close_button"/>
+                    <connections>
+                        <action selector="closeButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="6dm-9M-pE3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="H6u-J0-A6h" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="67.5" id="IoC-AA-EZa"/>
+                <constraint firstItem="JhE-zT-ZRf" firstAttribute="top" secondItem="H6u-J0-A6h" secondAttribute="bottom" id="SYo-P2-my8"/>
+                <constraint firstItem="JhE-zT-ZRf" firstAttribute="centerX" secondItem="H6u-J0-A6h" secondAttribute="centerX" id="XWr-jg-pyK"/>
+                <constraint firstItem="H6u-J0-A6h" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-20" id="mFe-71-PHk"/>
+                <constraint firstItem="H6u-J0-A6h" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="p5u-pV-8e0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="showContent" destination="DZr-nL-Un8" id="F6u-qR-a7X"/>
+                <outlet property="showTitle" destination="M7C-Ic-eDO" id="QGc-X9-6or"/>
+                <outlet property="sureButton" destination="03S-0N-YIv" id="6cw-c6-30k"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dismiss_operation_icon" width="53.5" height="53"/>
+        <image name="update_close_button" width="30" height="59.5"/>
+    </resources>
+</document>

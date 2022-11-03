@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeProjectMediaCell" rowHeight="238" id="KGk-i7-Jjw" customClass="HomeProjectMediaCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="351"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="351"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1d-R1-ohx">
+                        <rect key="frame" x="15" y="111" width="290" height="240"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xwi-j3-81s">
+                                <rect key="frame" x="13" y="0.0" width="264" height="148.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Xwi-j3-81s" secondAttribute="height" multiplier="16:9" id="LtQ-MM-5qB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="13"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUd-9R-m7z">
+                                <rect key="frame" x="125" y="54.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="gDi-A6-qmj"/>
+                                    <constraint firstAttribute="height" constant="40" id="gbO-Ny-Ez2"/>
+                                </constraints>
+                                <state key="normal" image="icon_play_pause"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4J-9X-0rF">
+                                <rect key="frame" x="13" y="163.5" width="264" height="62.5"/>
+                                <string key="text">充值比例1：2000
+★登陆送超v，88888钻石、1000W贝利，开局豪华特权海量福利直接享！！
+★登陆就送两千元真充卡，豪华千充让你开局当高玩...</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="p4J-9X-0rF" firstAttribute="trailing" secondItem="Xwi-j3-81s" secondAttribute="trailing" id="2NT-CS-p2Y"/>
+                            <constraint firstItem="Xwi-j3-81s" firstAttribute="top" secondItem="i1d-R1-ohx" secondAttribute="top" id="2Ws-ZV-KtP"/>
+                            <constraint firstItem="p4J-9X-0rF" firstAttribute="leading" secondItem="Xwi-j3-81s" secondAttribute="leading" id="77f-O7-8x7"/>
+                            <constraint firstAttribute="trailing" secondItem="Xwi-j3-81s" secondAttribute="trailing" constant="13" id="7Dg-WQ-JG0"/>
+                            <constraint firstItem="Xwi-j3-81s" firstAttribute="leading" secondItem="i1d-R1-ohx" secondAttribute="leading" constant="13" id="jOb-n3-IoS"/>
+                            <constraint firstItem="p4J-9X-0rF" firstAttribute="top" secondItem="Xwi-j3-81s" secondAttribute="bottom" constant="15" id="nIL-4W-r6u"/>
+                            <constraint firstAttribute="bottom" secondItem="p4J-9X-0rF" secondAttribute="bottom" constant="14" id="nvc-5G-m8f"/>
+                            <constraint firstItem="IUd-9R-m7z" firstAttribute="centerY" secondItem="Xwi-j3-81s" secondAttribute="centerY" id="pcG-BD-aUk"/>
+                            <constraint firstItem="IUd-9R-m7z" firstAttribute="centerX" secondItem="Xwi-j3-81s" secondAttribute="centerX" id="vf7-Qi-Wzm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.96078431372549022" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="i1d-R1-ohx" secondAttribute="trailing" constant="15" id="80K-x3-rEr"/>
+                    <constraint firstAttribute="bottom" secondItem="i1d-R1-ohx" secondAttribute="bottom" id="PkI-Uf-tvG"/>
+                    <constraint firstItem="i1d-R1-ohx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="WkA-BC-Wac"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLabel" destination="p4J-9X-0rF" id="ykk-TX-Dzc"/>
+                <outlet property="gameIcon" destination="Xwi-j3-81s" id="EJt-Xp-C8r"/>
+                <outlet property="playButton" destination="IUd-9R-m7z" id="Lhl-RD-5sR"/>
+                <outlet property="radiusView" destination="i1d-R1-ohx" id="r6P-38-ugt"/>
+            </connections>
+            <point key="canvasLocation" x="115.94202898550725" y="123.54910714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_play_pause" width="63" height="63"/>
+    </resources>
+</document>

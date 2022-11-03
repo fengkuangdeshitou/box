@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "投诉电话"; ObjectID = "45d-hc-UQe"; */
+"45d-hc-UQe.text" = "投訴電話";
+
+/* Class = "UIButton"; normalTitle = "拨打"; ObjectID = "EBt-hP-BTY"; */
+"EBt-hP-BTY.normalTitle" = "撥打";
+
+/* Class = "UILabel"; text = "（仅处理投诉问题）"; ObjectID = "NNU-bI-DWS"; */
+"NNU-bI-DWS.text" = "（僅處理投訴問題）";

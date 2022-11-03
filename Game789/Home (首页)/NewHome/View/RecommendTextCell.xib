@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RecommendTextCell" rowHeight="308" id="KGk-i7-Jjw" customClass="RecommendTextCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="308"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="308"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XwX-nq-Jm6">
+                        <rect key="frame" x="15" y="0.0" width="290" height="308"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recommend" translatesAutoresizingMaskIntoConstraints="NO" id="vhD-Pv-Gqo">
+                                <rect key="frame" x="0.0" y="0.0" width="290" height="308"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="游戏活动" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIG-Dc-tk6">
+                                <rect key="frame" x="108.5" y="21" width="73.5" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17.5" id="CO1-Ta-EMr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpV-Ng-LzY">
+                                <rect key="frame" x="20" y="52.5" width="250" height="45.5"/>
+                                <string key="text">大侠敬呈， 欢迎来到《天天狙击-开局GM剑》手游，这是一款你从未体验过的全新游戏，独创武侠射击Roguelike玩法，轻松开局，随时叫停；多种装备搭配，随机技能组合；冲关各大门派，考验大侠功力！ 
+
+咪噜游戏小编接下来为大家分享的是《天天狙击-开局GM剑》公益服手游装备镶嵌功能详解。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5w-VS-VlJ">
+                                <rect key="frame" x="20" y="98" width="250" height="170"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner_photo" translatesAutoresizingMaskIntoConstraints="NO" id="PZ3-70-dOa">
+                                        <rect key="frame" x="0.0" y="15" width="250" height="155"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="13"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="9YJ-BS-JYy"/>
+                                    <constraint firstItem="PZ3-70-dOa" firstAttribute="leading" secondItem="o5w-VS-VlJ" secondAttribute="leading" id="BXP-HN-wFG"/>
+                                    <constraint firstAttribute="bottom" secondItem="PZ3-70-dOa" secondAttribute="bottom" id="Rdk-oT-pAe"/>
+                                    <constraint firstAttribute="trailing" secondItem="PZ3-70-dOa" secondAttribute="trailing" id="guW-te-MMA"/>
+                                    <constraint firstItem="PZ3-70-dOa" firstAttribute="top" secondItem="o5w-VS-VlJ" secondAttribute="top" constant="15" id="mV0-bX-iFp"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recommend_right" translatesAutoresizingMaskIntoConstraints="NO" id="Y2a-cJ-yLc">
+                                <rect key="frame" x="187" y="23.5" width="37" height="12.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recommend_left" translatesAutoresizingMaskIntoConstraints="NO" id="8pG-3O-Sjs">
+                                <rect key="frame" x="66.5" y="23.5" width="37" height="12.5"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APc-YZ-TuM">
+                                <rect key="frame" x="105" y="268" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="13f-AP-DBm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <inset key="titleEdgeInsets" minX="-30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="60" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="查看全部" image="game_detail_more_down">
+                                    <color key="titleColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="gameDetail:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="AWJ-iA-hMr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="APc-YZ-TuM" secondAttribute="bottom" id="1FQ-vM-Jf7"/>
+                            <constraint firstItem="DIG-Dc-tk6" firstAttribute="leading" secondItem="8pG-3O-Sjs" secondAttribute="trailing" constant="5" id="2o5-c9-O0Q"/>
+                            <constraint firstAttribute="trailing" secondItem="bpV-Ng-LzY" secondAttribute="trailing" constant="20" id="7gx-Nk-RC3"/>
+                            <constraint firstItem="Y2a-cJ-yLc" firstAttribute="centerY" secondItem="8pG-3O-Sjs" secondAttribute="centerY" id="E1q-5l-vEb"/>
+                            <constraint firstAttribute="trailing" secondItem="o5w-VS-VlJ" secondAttribute="trailing" constant="20" id="Ebc-Xx-3Fb"/>
+                            <constraint firstAttribute="trailing" secondItem="vhD-Pv-Gqo" secondAttribute="trailing" id="Gjm-gb-eYJ"/>
+                            <constraint firstItem="APc-YZ-TuM" firstAttribute="top" secondItem="o5w-VS-VlJ" secondAttribute="bottom" id="IBd-hw-3DL"/>
+                            <constraint firstAttribute="bottom" secondItem="vhD-Pv-Gqo" secondAttribute="bottom" id="OMj-OS-hM9"/>
+                            <constraint firstItem="Y2a-cJ-yLc" firstAttribute="leading" secondItem="DIG-Dc-tk6" secondAttribute="trailing" constant="5" id="QIr-x3-YcH"/>
+                            <constraint firstItem="DIG-Dc-tk6" firstAttribute="top" secondItem="XwX-nq-Jm6" secondAttribute="top" constant="21" id="RTJ-yG-0Ux"/>
+                            <constraint firstItem="bpV-Ng-LzY" firstAttribute="leading" secondItem="XwX-nq-Jm6" secondAttribute="leading" constant="20" id="T9Q-b8-lCX"/>
+                            <constraint firstItem="o5w-VS-VlJ" firstAttribute="leading" secondItem="XwX-nq-Jm6" secondAttribute="leading" constant="20" id="UD9-pH-SLe"/>
+                            <constraint firstAttribute="bottom" secondItem="o5w-VS-VlJ" secondAttribute="bottom" constant="40" id="Vb5-0b-3uk"/>
+                            <constraint firstItem="vhD-Pv-Gqo" firstAttribute="top" secondItem="XwX-nq-Jm6" secondAttribute="top" id="hJG-k8-ReZ"/>
+                            <constraint firstItem="DIG-Dc-tk6" firstAttribute="centerX" secondItem="XwX-nq-Jm6" secondAttribute="centerX" id="pOP-Ru-Aks"/>
+                            <constraint firstItem="o5w-VS-VlJ" firstAttribute="top" secondItem="bpV-Ng-LzY" secondAttribute="bottom" id="sWw-75-led"/>
+                            <constraint firstItem="vhD-Pv-Gqo" firstAttribute="leading" secondItem="XwX-nq-Jm6" secondAttribute="leading" id="sh1-Fa-hB4"/>
+                            <constraint firstItem="APc-YZ-TuM" firstAttribute="centerX" secondItem="XwX-nq-Jm6" secondAttribute="centerX" id="uOH-4C-iol"/>
+                            <constraint firstItem="bpV-Ng-LzY" firstAttribute="top" secondItem="DIG-Dc-tk6" secondAttribute="bottom" constant="14" id="ur3-UP-UwV"/>
+                            <constraint firstItem="DIG-Dc-tk6" firstAttribute="centerY" secondItem="8pG-3O-Sjs" secondAttribute="centerY" id="yzN-5a-EZp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="XwX-nq-Jm6" secondAttribute="bottom" id="Hqe-ia-vCb"/>
+                    <constraint firstItem="XwX-nq-Jm6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="KWc-p8-5Ru"/>
+                    <constraint firstItem="XwX-nq-Jm6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="haM-UR-IhQ"/>
+                    <constraint firstAttribute="trailing" secondItem="XwX-nq-Jm6" secondAttribute="trailing" constant="15" id="kFM-vj-9vU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="backImageView" destination="vhD-Pv-Gqo" id="DEh-ju-HTp"/>
+                <outlet property="banner" destination="PZ3-70-dOa" id="hoH-J7-Qdb"/>
+                <outlet property="contentLabel" destination="bpV-Ng-LzY" id="LTo-aL-7EY"/>
+                <outlet property="imageHeightConstraint" destination="9YJ-BS-JYy" id="KQd-QL-h6J"/>
+                <outlet property="imageTopConstraint" destination="mV0-bX-iFp" id="FpE-ZR-7Wg"/>
+                <outlet property="titleLabel" destination="DIG-Dc-tk6" id="1b4-pg-C79"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="175.44642857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="banner_photo" width="345" height="106"/>
+        <image name="game_detail_more_down" width="10.5" height="5.5"/>
+        <image name="recommend" width="114" height="55.5"/>
+        <image name="recommend_left" width="37" height="12.5"/>
+        <image name="recommend_right" width="37" height="12.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

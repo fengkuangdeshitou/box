@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "交易记录"; ObjectID = "My5-Dh-sqg"; */
+"My5-Dh-sqg.normalTitle" = "交易記錄";
+
+/* Class = "UIButton"; normalTitle = "我要卖号"; ObjectID = "VQT-sq-bgO"; */
+"VQT-sq-bgO.normalTitle" = "我要賣號";
+
+/* Class = "UIButton"; normalTitle = "在线客服"; ObjectID = "Ym1-kP-Zgt"; */
+"Ym1-kP-Zgt.normalTitle" = "在線客服";
+
+/* Class = "UIButton"; normalTitle = "更多"; ObjectID = "joS-Oo-18T"; */
+"joS-Oo-18T.normalTitle" = "更多";
+
+/* Class = "UIButton"; normalTitle = "交易须知"; ObjectID = "k3a-et-omb"; */
+"k3a-et-omb.normalTitle" = "交易須知";
+
+/* Class = "UILabel"; text = "官方精选"; ObjectID = "q9U-2T-d5l"; */
+"q9U-2T-d5l.text" = "官方精選";

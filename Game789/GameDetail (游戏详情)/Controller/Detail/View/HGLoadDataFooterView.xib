@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HGLoadDataFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yoy-jE-D02">
+                    <rect key="frame" x="45" y="32.666666666666664" width="85" height="0.6666666666666643"/>
+                    <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="42y-6A-oAk"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多游戏请到发现中查看" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roA-iz-4uc">
+                    <rect key="frame" x="139.66666666666666" y="25" width="134.99999999999997" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="LRd-xr-ZhP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.63529411764705879" green="0.63529411764705879" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6b-gT-qtt">
+                    <rect key="frame" x="284" y="32.666666666666664" width="85" height="0.6666666666666643"/>
+                    <color key="backgroundColor" red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="tb9-93-DGC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="roA-iz-4uc" firstAttribute="leading" secondItem="yoy-jE-D02" secondAttribute="trailing" constant="9.5" id="78Y-r0-9yX"/>
+                <constraint firstItem="roA-iz-4uc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="ENK-Mi-shy"/>
+                <constraint firstItem="roA-iz-4uc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Krn-Sh-mqN"/>
+                <constraint firstItem="roA-iz-4uc" firstAttribute="centerY" secondItem="yoy-jE-D02" secondAttribute="centerY" id="NZw-F7-b41"/>
+                <constraint firstItem="yoy-jE-D02" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="45" id="QuY-c2-rcH"/>
+                <constraint firstItem="a6b-gT-qtt" firstAttribute="centerY" secondItem="roA-iz-4uc" secondAttribute="centerY" id="gpK-Yp-3pC"/>
+                <constraint firstAttribute="trailing" secondItem="a6b-gT-qtt" secondAttribute="trailing" constant="45" id="iDD-B5-2Os"/>
+                <constraint firstItem="a6b-gT-qtt" firstAttribute="leading" secondItem="roA-iz-4uc" secondAttribute="trailing" constant="9.5" id="zlV-Pr-aDJ"/>
+            </constraints>
+            <connections>
+                <outlet property="showText" destination="roA-iz-4uc" id="sK5-QA-H86"/>
+            </connections>
+            <point key="canvasLocation" x="214" y="-15"/>
+        </view>
+    </objects>
+</document>

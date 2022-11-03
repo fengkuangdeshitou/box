@@ -1,0 +1,87 @@
+
+/* Class = "UIButton"; normalTitle = "恶意扣费"; ObjectID = "7hh-iA-tDh"; */
+"7hh-iA-tDh.normalTitle" = "恶意扣费";
+
+/* Class = "UIButton"; selectedTitle = "恶意扣费"; ObjectID = "7hh-iA-tDh"; */
+"7hh-iA-tDh.selectedTitle" = "恶意扣费";
+
+/* Class = "UIButton"; normalTitle = "含有不良插件"; ObjectID = "8rr-rA-IdZ"; */
+"8rr-rA-IdZ.normalTitle" = "含有不良插件";
+
+/* Class = "UIButton"; selectedTitle = "含有不良插件"; ObjectID = "8rr-rA-IdZ"; */
+"8rr-rA-IdZ.selectedTitle" = "含有不良插件";
+
+/* Class = "UIButton"; normalTitle = "其他"; ObjectID = "92p-Pn-KWD"; */
+"92p-Pn-KWD.normalTitle" = "其他";
+
+/* Class = "UIButton"; selectedTitle = "其他"; ObjectID = "92p-Pn-KWD"; */
+"92p-Pn-KWD.selectedTitle" = "其他";
+
+/* Class = "UILabel"; text = "请上传3-5张图片"; ObjectID = "9tO-ZW-I74"; */
+"9tO-ZW-I74.text" = "请上传3-5张图片";
+
+/* Class = "UILabel"; text = "游戏名称"; ObjectID = "DWK-sj-x9j"; */
+"DWK-sj-x9j.text" = "游戏名称";
+
+/* Class = "UILabel"; text = "联系电话"; ObjectID = "Fo6-8K-KSP"; */
+"Fo6-8K-KSP.text" = "联系电话";
+
+/* Class = "UIButton"; normalTitle = "无法安装或重启"; ObjectID = "HGl-SP-ggf"; */
+"HGl-SP-ggf.normalTitle" = "无法安装或重启";
+
+/* Class = "UIButton"; selectedTitle = "无法安装或重启"; ObjectID = "HGl-SP-ggf"; */
+"HGl-SP-ggf.selectedTitle" = "无法安装或重启";
+
+/* Class = "UIButton"; normalTitle = "确认提交"; ObjectID = "Ie7-ad-z0l"; */
+"Ie7-ad-z0l.normalTitle" = "确认提交";
+
+/* Class = "UIButton"; normalTitle = "色情内容"; ObjectID = "MVx-Sf-pUV"; */
+"MVx-Sf-pUV.normalTitle" = "色情内容";
+
+/* Class = "UIButton"; selectedTitle = "色情内容"; ObjectID = "MVx-Sf-pUV"; */
+"MVx-Sf-pUV.selectedTitle" = "色情内容";
+
+/* Class = "UILabel"; text = "联系QQ"; ObjectID = "MaY-k3-jSh"; */
+"MaY-k3-jSh.text" = "联系QQ";
+
+/* Class = "UIButton"; normalTitle = "暴力内容"; ObjectID = "OzQ-4M-QQM"; */
+"OzQ-4M-QQM.normalTitle" = "暴力内容";
+
+/* Class = "UIButton"; selectedTitle = "暴力内容"; ObjectID = "OzQ-4M-QQM"; */
+"OzQ-4M-QQM.selectedTitle" = "暴力内容";
+
+/* Class = "UILabel"; text = "选择举报类型（必填）"; ObjectID = "Sg5-de-LEq"; */
+"Sg5-de-LEq.text" = "选择举报类型（必填）";
+
+/* Class = "UILabel"; text = "手机型号"; ObjectID = "YiQ-sR-RPR"; */
+"YiQ-sR-RPR.text" = "手机型号";
+
+/* Class = "UIButton"; normalTitle = "携带病毒"; ObjectID = "Zip-Nw-Caf"; */
+"Zip-Nw-Caf.normalTitle" = "携带病毒";
+
+/* Class = "UIButton"; selectedTitle = "携带病毒"; ObjectID = "Zip-Nw-Caf"; */
+"Zip-Nw-Caf.selectedTitle" = "携带病毒";
+
+/* Class = "UITextField"; placeholder = "非必填"; ObjectID = "bfV-UL-lmJ"; */
+"bfV-UL-lmJ.placeholder" = "非必填";
+
+/* Class = "UITextField"; placeholder = "必填"; ObjectID = "c5R-Uv-MCM"; */
+"c5R-Uv-MCM.placeholder" = "必填";
+
+/* Class = "UITextField"; placeholder = "请选择要投诉的游戏名称"; ObjectID = "jKh-Pc-d73"; */
+"jKh-Pc-d73.placeholder" = "请选择要投诉的游戏名称";
+
+/* Class = "UIButton"; normalTitle = "反动内容"; ObjectID = "jPG-jI-umT"; */
+"jPG-jI-umT.normalTitle" = "反动内容";
+
+/* Class = "UIButton"; selectedTitle = "反动内容"; ObjectID = "jPG-jI-umT"; */
+"jPG-jI-umT.selectedTitle" = "反动内容";
+
+/* Class = "UIButton"; normalTitle = "侵犯版权"; ObjectID = "wne-O0-xrD"; */
+"wne-O0-xrD.normalTitle" = "侵犯版权";
+
+/* Class = "UIButton"; selectedTitle = "侵犯版权"; ObjectID = "wne-O0-xrD"; */
+"wne-O0-xrD.selectedTitle" = "侵犯版权";
+
+/* Class = "UILabel"; text = "传图片"; ObjectID = "ziK-Tq-sSr"; */
+"ziK-Tq-sSr.text" = "传图片";

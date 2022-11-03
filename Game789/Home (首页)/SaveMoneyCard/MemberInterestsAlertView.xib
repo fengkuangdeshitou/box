@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MemberInterestsAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button hidden="YES" opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUQ-jf-pli">
+                    <rect key="frame" x="0.0" y="478" width="30" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="XK7-yZ-8RK"/>
+                        <constraint firstAttribute="height" constant="30" id="nus-sD-Y2E"/>
+                    </constraints>
+                    <state key="normal" image="member_left"/>
+                    <connections>
+                        <action selector="moveScrollView:" destination="iN0-l3-epB" eventType="touchUpInside" id="iNJ-jS-T0K"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkG-b1-sP1">
+                    <rect key="frame" x="384" y="478" width="30" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="1YO-Py-e2y"/>
+                        <constraint firstAttribute="width" constant="30" id="BVL-5M-qmC"/>
+                    </constraints>
+                    <state key="normal" image="member_right"/>
+                    <connections>
+                        <action selector="moveScrollView:" destination="iN0-l3-epB" eventType="touchUpInside" id="dim-gG-xCJ"/>
+                    </connections>
+                </button>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWR-vO-aVd">
+                    <rect key="frame" x="30" y="278" width="354" height="430"/>
+                    <subviews>
+                        <scrollView verifyAmbiguity="off" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogO-OS-vrN">
+                            <rect key="frame" x="0.0" y="0.0" width="354" height="430"/>
+                            <connections>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="C4c-jM-Q7t"/>
+                            </connections>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ogO-OS-vrN" secondAttribute="bottom" id="3i6-Os-RKF"/>
+                        <constraint firstItem="ogO-OS-vrN" firstAttribute="top" secondItem="LWR-vO-aVd" secondAttribute="top" id="6Ot-4J-zto"/>
+                        <constraint firstAttribute="height" constant="430" id="9MX-dB-x92"/>
+                        <constraint firstItem="ogO-OS-vrN" firstAttribute="width" secondItem="LWR-vO-aVd" secondAttribute="width" id="GCL-Di-M9W"/>
+                        <constraint firstItem="ogO-OS-vrN" firstAttribute="height" secondItem="LWR-vO-aVd" secondAttribute="height" id="Su9-pt-Bu5"/>
+                        <constraint firstItem="ogO-OS-vrN" firstAttribute="leading" secondItem="LWR-vO-aVd" secondAttribute="leading" id="hCv-RT-FG8"/>
+                        <constraint firstAttribute="trailing" secondItem="ogO-OS-vrN" secondAttribute="trailing" id="k8t-nj-AqB"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="13"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TU0-CD-3te">
+                    <rect key="frame" x="193.5" y="728" width="27" height="27"/>
+                    <state key="normal" image="member_guanbi"/>
+                    <connections>
+                        <action selector="dismiss" destination="iN0-l3-epB" eventType="touchUpInside" id="Ofc-G1-4K8"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wla-V6-SPt">
+                    <rect key="frame" x="0.0" y="188" width="414" height="90"/>
+                    <subviews>
+                        <scrollView verifyAmbiguity="off" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qks-Oi-wmF">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="qks-Oi-wmF" secondAttribute="trailing" id="Na1-vi-kgL"/>
+                        <constraint firstAttribute="height" constant="90" id="Q8l-Fv-qqb"/>
+                        <constraint firstItem="qks-Oi-wmF" firstAttribute="width" secondItem="wla-V6-SPt" secondAttribute="width" id="gEU-xF-9ib"/>
+                        <constraint firstItem="qks-Oi-wmF" firstAttribute="top" secondItem="wla-V6-SPt" secondAttribute="top" id="hYQ-2T-19Y"/>
+                        <constraint firstItem="qks-Oi-wmF" firstAttribute="leading" secondItem="wla-V6-SPt" secondAttribute="leading" id="p8j-Hl-U63"/>
+                        <constraint firstAttribute="bottom" secondItem="qks-Oi-wmF" secondAttribute="bottom" id="sSJ-Z6-SvP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NkG-b1-sP1" firstAttribute="centerY" secondItem="LWR-vO-aVd" secondAttribute="centerY" id="4a6-cM-5mE"/>
+                <constraint firstItem="LWR-vO-aVd" firstAttribute="top" secondItem="wla-V6-SPt" secondAttribute="bottom" id="8te-AN-Vi5"/>
+                <constraint firstItem="iUQ-jf-pli" firstAttribute="centerY" secondItem="LWR-vO-aVd" secondAttribute="centerY" id="9mS-L9-nSh"/>
+                <constraint firstItem="NkG-b1-sP1" firstAttribute="leading" secondItem="LWR-vO-aVd" secondAttribute="trailing" id="JZg-7b-Nwq"/>
+                <constraint firstItem="iUQ-jf-pli" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LjH-fY-zge"/>
+                <constraint firstItem="TU0-CD-3te" firstAttribute="top" secondItem="LWR-vO-aVd" secondAttribute="bottom" constant="20" id="QwA-ES-qLJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wla-V6-SPt" secondAttribute="trailing" id="Wi7-Gp-Jzl"/>
+                <constraint firstItem="LWR-vO-aVd" firstAttribute="leading" secondItem="iUQ-jf-pli" secondAttribute="trailing" id="kMu-8W-HdK"/>
+                <constraint firstItem="LWR-vO-aVd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="45" id="leR-Ac-c7d"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NkG-b1-sP1" secondAttribute="trailing" id="o9G-KE-Hsl"/>
+                <constraint firstItem="TU0-CD-3te" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="obc-3Y-oFe"/>
+                <constraint firstItem="wla-V6-SPt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="tRo-eb-kRv"/>
+            </constraints>
+            <connections>
+                <outlet property="itemScrollView" destination="qks-Oi-wmF" id="rC0-Cj-Eml"/>
+                <outlet property="leftButton" destination="iUQ-jf-pli" id="x9c-Ml-iA9"/>
+                <outlet property="rightButton" destination="NkG-b1-sP1" id="66z-zD-rF1"/>
+                <outlet property="scrollView" destination="ogO-OS-vrN" id="A38-xW-wKU"/>
+            </connections>
+            <point key="canvasLocation" x="89.855072463768124" y="58.928571428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="member_guanbi" width="27" height="27"/>
+        <image name="member_left" width="14" height="14"/>
+        <image name="member_right" width="14" height="14"/>
+    </resources>
+</document>

@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "个"; ObjectID = "8fy-Oe-D6T"; */
+"8fy-Oe-D6T.text" = "个";
+
+/* Class = "UILabel"; text = "去使用>"; ObjectID = "N2b-7V-HI5"; */
+"N2b-7V-HI5.text" = "去使用>";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "TzS-Lx-bM0"; */
+"TzS-Lx-bM0.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "WRC-jg-Z5o"; */
+"WRC-jg-Z5o.text" = "0";
+
+/* Class = "UILabel"; text = "去充值>"; ObjectID = "WdR-1y-SCx"; */
+"WdR-1y-SCx.text" = "去充值>";
+
+/* Class = "UIButton"; normalTitle = "立即开通"; ObjectID = "dIO-cr-qhk"; */
+"dIO-cr-qhk.normalTitle" = "立即开通";
+
+/* Class = "UILabel"; text = "超级会员"; ObjectID = "dpv-4l-otP"; */
+"dpv-4l-otP.text" = "超级会员";
+
+/* Class = "UILabel"; text = "张"; ObjectID = "e96-jY-Yvk"; */
+"e96-jY-Yvk.text" = "张";
+
+/* Class = "UILabel"; text = "立即登录"; ObjectID = "gfh-bU-Q6c"; */
+"gfh-bU-Q6c.text" = "立即登录";
+
+/* Class = "UILabel"; text = "平台币"; ObjectID = "goM-Gh-tVU"; */
+"goM-Gh-tVU.text" = "平台币";
+
+/* Class = "UILabel"; text = "代金券"; ObjectID = "i20-ZH-AaJ"; */
+"i20-ZH-AaJ.text" = "代金券";
+
+/* Class = "UILabel"; text = "金币"; ObjectID = "mSP-gq-6LL"; */
+"mSP-gq-6LL.text" = "金币";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "o1s-s1-hD7"; */
+"o1s-s1-hD7.text" = "0";
+
+/* Class = "UILabel"; text = "享优惠>"; ObjectID = "tQ7-L2-l1k"; */
+"tQ7-L2-l1k.text" = "享优惠>";
+
+/* Class = "UILabel"; text = "个"; ObjectID = "yJF-BQ-LK9"; */
+"yJF-BQ-LK9.text" = "个";
+
+/* Class = "UILabel"; text = "限时赠送等额平台币"; ObjectID = "yzE-ML-sKu"; */
+"yzE-ML-sKu.text" = "限时赠送等额平台币";

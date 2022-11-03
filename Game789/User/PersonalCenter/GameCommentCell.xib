@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="GameCommentCell" rowHeight="233" id="KGk-i7-Jjw" customClass="GameCommentCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="233"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="233"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Lr-ge-M7O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小熊维尼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdF-yH-MM2">
+                                <rect key="frame" x="69" y="15" width="61.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2mp-5D-fcX">
+                                <rect key="frame" x="15" y="13" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="6mO-Ba-qE6"/>
+                                    <constraint firstAttribute="height" constant="44" id="gGd-6I-bj3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="22"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdh-9e-6sC">
+                                <rect key="frame" x="278" y="26" width="27" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="0" image="lhh_home_zan">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03-20 10:27" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5a-4h-6hN">
+                                <rect key="frame" x="69" y="40" width="70" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="g5a-4h-6hN" firstAttribute="leading" secondItem="cdF-yH-MM2" secondAttribute="leading" id="5Mf-Hm-qyM"/>
+                            <constraint firstItem="tdh-9e-6sC" firstAttribute="centerY" secondItem="2mp-5D-fcX" secondAttribute="centerY" id="9fD-Ff-Yia"/>
+                            <constraint firstItem="cdF-yH-MM2" firstAttribute="top" secondItem="2mp-5D-fcX" secondAttribute="top" constant="2" id="BOZ-kz-X1L"/>
+                            <constraint firstItem="cdF-yH-MM2" firstAttribute="leading" secondItem="2mp-5D-fcX" secondAttribute="trailing" constant="10" id="EWa-jK-JO1"/>
+                            <constraint firstItem="2mp-5D-fcX" firstAttribute="top" secondItem="5Lr-ge-M7O" secondAttribute="top" constant="13" id="F7Q-bl-gJ0"/>
+                            <constraint firstAttribute="height" constant="67" id="JKt-N9-xkT"/>
+                            <constraint firstItem="2mp-5D-fcX" firstAttribute="leading" secondItem="5Lr-ge-M7O" secondAttribute="leading" constant="15" id="K9S-cW-2xo"/>
+                            <constraint firstItem="g5a-4h-6hN" firstAttribute="top" secondItem="cdF-yH-MM2" secondAttribute="bottom" constant="7" id="Xh4-qM-gMp"/>
+                            <constraint firstAttribute="trailing" secondItem="tdh-9e-6sC" secondAttribute="trailing" constant="15" id="stX-2D-yGy"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="回复@铁臂阿童木平民可用的防御型忍者主要是六道带土、轮回眼佐助和须佐卡卡西，其中六道带土为首选，因为开场放集体闪避，并且大招可" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zd7-8z-Pd2">
+                        <rect key="frame" x="15" y="67" width="290" height="77"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9bG-LW-rZg">
+                        <rect key="frame" x="15" y="152" width="290" height="71"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="之前玩了好久了（这个俩小时的游戏时长是我换手机之后玩的）现在又下回来玩俩小时了，游戏是好游戏很适合消磨时间很舒服，就扣一星是因..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu4-61-GBC" customClass="MLLinkLabel">
+                                <rect key="frame" x="10" y="10" width="270" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Mu4-61-GBC" secondAttribute="bottom" constant="10" id="5lJ-9d-kGk"/>
+                            <constraint firstItem="Mu4-61-GBC" firstAttribute="top" secondItem="9bG-LW-rZg" secondAttribute="top" constant="10" id="Aou-sR-WdV"/>
+                            <constraint firstAttribute="trailing" secondItem="Mu4-61-GBC" secondAttribute="trailing" constant="10" id="Seh-QO-wRE"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="71" id="Shs-dg-AJu"/>
+                            <constraint firstItem="Mu4-61-GBC" firstAttribute="leading" secondItem="9bG-LW-rZg" secondAttribute="leading" constant="10" id="xh4-lr-cFt"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="8"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Lr-ge-M7O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CVV-BF-xd2"/>
+                    <constraint firstItem="9bG-LW-rZg" firstAttribute="top" secondItem="Zd7-8z-Pd2" secondAttribute="bottom" constant="8" id="EZx-NF-B5U"/>
+                    <constraint firstAttribute="trailing" secondItem="Zd7-8z-Pd2" secondAttribute="trailing" constant="15" id="ZBo-Ij-4uZ"/>
+                    <constraint firstItem="5Lr-ge-M7O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZaM-Sw-dRC"/>
+                    <constraint firstAttribute="bottom" secondItem="9bG-LW-rZg" secondAttribute="bottom" constant="10" id="aB5-Sm-Ts9"/>
+                    <constraint firstAttribute="trailing" secondItem="9bG-LW-rZg" secondAttribute="trailing" constant="15" id="jF0-bw-JB2"/>
+                    <constraint firstItem="9bG-LW-rZg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="jGC-Zv-bXh"/>
+                    <constraint firstItem="Zd7-8z-Pd2" firstAttribute="top" secondItem="5Lr-ge-M7O" secondAttribute="bottom" id="psf-3z-U5H"/>
+                    <constraint firstAttribute="trailing" secondItem="5Lr-ge-M7O" secondAttribute="trailing" id="rhz-c4-cNd"/>
+                    <constraint firstItem="Zd7-8z-Pd2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="zgn-wp-4vt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="agreeButton" destination="tdh-9e-6sC" id="aQ1-IE-MUE"/>
+                <outlet property="commentLabel" destination="Mu4-61-GBC" id="P8c-0A-Usj"/>
+                <outlet property="contentLabel" destination="Zd7-8z-Pd2" id="MIi-7I-KYH"/>
+                <outlet property="headerImageView" destination="2mp-5D-fcX" id="RlX-cS-mfM"/>
+                <outlet property="timeLabel" destination="g5a-4h-6hN" id="9iW-2t-zUB"/>
+                <outlet property="titleLabel" destination="cdF-yH-MM2" id="Bca-0m-ID1"/>
+            </connections>
+            <point key="canvasLocation" x="39" y="55"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="lhh_home_zan" width="18" height="18"/>
+    </resources>
+</document>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21223" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21204"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="99" id="KGk-i7-Jjw" customClass="GetSettingNewsMgsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="系统通知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzT-xy-zlS">
+                        <rect key="frame" x="20" y="15" width="69.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="2yV-Sv-1zv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="08-17 17:39" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wG3-H8-L6E">
+                        <rect key="frame" x="237" y="65" width="68" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="亲爱的玩家：您购买的会员即将到期，为了不影响您的使..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhd-eR-TQ1">
+                        <rect key="frame" x="20" y="40" width="285" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="mdx-WN-Mwz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0qZ-jc-Vvj">
+                        <rect key="frame" x="15" y="98.5" width="290" height="0.5"/>
+                        <color key="backgroundColor" red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="qau-DS-G4k"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="进入对话框&gt; " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uR5-Fa-hnW">
+                        <rect key="frame" x="20" y="65" width="72.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.28627450980392155" green="0.53333333333333333" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTN-4W-2Up">
+                        <rect key="frame" x="94.5" y="18.5" width="24" height="13"/>
+                        <color key="backgroundColor" red="1" green="0.082352941176470587" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="t6s-YT-SKC"/>
+                            <constraint firstAttribute="height" constant="13" id="wIp-sP-U1R"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kTN-4W-2Up" firstAttribute="centerY" secondItem="MzT-xy-zlS" secondAttribute="centerY" id="0qT-2d-421"/>
+                    <constraint firstItem="uR5-Fa-hnW" firstAttribute="leading" secondItem="MzT-xy-zlS" secondAttribute="leading" id="3hi-mn-Ijz"/>
+                    <constraint firstItem="MzT-xy-zlS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="5we-sI-06k"/>
+                    <constraint firstItem="0qZ-jc-Vvj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="BAh-DI-4kf"/>
+                    <constraint firstAttribute="trailing" secondItem="wG3-H8-L6E" secondAttribute="trailing" constant="15" id="Gci-hs-YzN"/>
+                    <constraint firstItem="uR5-Fa-hnW" firstAttribute="top" secondItem="Mhd-eR-TQ1" secondAttribute="bottom" constant="5" id="Gus-2t-vjX"/>
+                    <constraint firstItem="Mhd-eR-TQ1" firstAttribute="leading" secondItem="MzT-xy-zlS" secondAttribute="leading" id="HOg-iM-QY7"/>
+                    <constraint firstAttribute="trailing" secondItem="Mhd-eR-TQ1" secondAttribute="trailing" constant="15" id="RR0-8x-Wci"/>
+                    <constraint firstAttribute="trailing" secondItem="0qZ-jc-Vvj" secondAttribute="trailing" constant="15" id="VQO-ov-F8b"/>
+                    <constraint firstItem="kTN-4W-2Up" firstAttribute="leading" secondItem="MzT-xy-zlS" secondAttribute="trailing" constant="5" id="eiD-Wp-ebr"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kTN-4W-2Up" secondAttribute="trailing" constant="15" id="enR-4F-XZv"/>
+                    <constraint firstItem="Mhd-eR-TQ1" firstAttribute="top" secondItem="MzT-xy-zlS" secondAttribute="bottom" constant="5" id="gfg-SW-p94"/>
+                    <constraint firstItem="MzT-xy-zlS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="lhN-7t-q2R"/>
+                    <constraint firstItem="wG3-H8-L6E" firstAttribute="centerY" secondItem="uR5-Fa-hnW" secondAttribute="centerY" id="mfP-EM-Vrg"/>
+                    <constraint firstAttribute="bottom" secondItem="0qZ-jc-Vvj" secondAttribute="bottom" id="nQQ-oQ-RtL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="enterText" destination="uR5-Fa-hnW" id="XY5-0t-Hdu"/>
+                <outlet property="readTagView" destination="kTN-4W-2Up" id="gye-h5-szc"/>
+                <outlet property="showContent" destination="Mhd-eR-TQ1" id="uMW-sp-9TQ"/>
+                <outlet property="showTime" destination="wG3-H8-L6E" id="B7r-At-d1O"/>
+                <outlet property="showTitle" destination="MzT-xy-zlS" id="MZA-Av-82u"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="-22"/>
+        </tableViewCell>
+    </objects>
+</document>

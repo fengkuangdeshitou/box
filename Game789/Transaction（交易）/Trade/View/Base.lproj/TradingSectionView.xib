@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TradingSectionView" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="TradingSectionView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LkV-NC-Anr">
+                    <rect key="frame" x="15" y="20" width="83.5" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最新发布" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OF-Hd-rxr">
+                            <rect key="frame" x="0.0" y="4.5" width="69.5" height="21"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trade_down_icon" translatesAutoresizingMaskIntoConstraints="NO" id="9cT-0S-g9r">
+                            <rect key="frame" x="75.5" y="12.5" width="8" height="5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="5" id="CX6-Hy-41n"/>
+                                <constraint firstAttribute="width" constant="8" id="fvi-HG-vZf"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="5OF-Hd-rxr" firstAttribute="leading" secondItem="LkV-NC-Anr" secondAttribute="leading" id="0dT-av-HyT"/>
+                        <constraint firstItem="9cT-0S-g9r" firstAttribute="centerY" secondItem="LkV-NC-Anr" secondAttribute="centerY" id="2jb-Du-3jd"/>
+                        <constraint firstAttribute="trailing" secondItem="9cT-0S-g9r" secondAttribute="trailing" id="7Mo-WR-FKF"/>
+                        <constraint firstItem="9cT-0S-g9r" firstAttribute="leading" secondItem="5OF-Hd-rxr" secondAttribute="trailing" constant="6" id="Gv1-2i-Mwg"/>
+                        <constraint firstAttribute="height" constant="30" id="MZg-ei-z0m"/>
+                        <constraint firstItem="5OF-Hd-rxr" firstAttribute="centerY" secondItem="LkV-NC-Anr" secondAttribute="centerY" id="exz-ei-n6V"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCM-fG-Qnz">
+                    <rect key="frame" x="98.5" y="22" width="36" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="47a-dY-wPb"/>
+                    </constraints>
+                    <state key="normal" image="trade_filter_icon"/>
+                    <connections>
+                        <action selector="filterButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="jc7-1H-OCt"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBG-Ol-zkD">
+                    <rect key="frame" x="154.5" y="20" width="180.5" height="30"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="搜索游戏" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="j0K-Dx-lqa">
+                            <rect key="frame" x="15" y="0.0" width="127.5" height="30"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oY0-yv-Kcn">
+                            <rect key="frame" x="150.5" y="4" width="15" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="15" id="JXk-pA-Sgj"/>
+                            </constraints>
+                            <state key="normal" image="gift_icon_search"/>
+                            <connections>
+                                <action selector="searchButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="HeZ-Le-jnN"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="oY0-yv-Kcn" firstAttribute="leading" secondItem="j0K-Dx-lqa" secondAttribute="trailing" constant="8" id="0Co-nG-UxJ"/>
+                        <constraint firstItem="j0K-Dx-lqa" firstAttribute="top" secondItem="eBG-Ol-zkD" secondAttribute="top" id="C5t-yb-Ewa"/>
+                        <constraint firstItem="j0K-Dx-lqa" firstAttribute="centerY" secondItem="eBG-Ol-zkD" secondAttribute="centerY" id="KrS-1a-ktl"/>
+                        <constraint firstAttribute="bottom" secondItem="j0K-Dx-lqa" secondAttribute="bottom" id="Lbu-Jz-7s3"/>
+                        <constraint firstAttribute="height" constant="30" id="Nm4-KQ-BWC"/>
+                        <constraint firstItem="j0K-Dx-lqa" firstAttribute="leading" secondItem="eBG-Ol-zkD" secondAttribute="leading" constant="15" id="lVg-SP-vRK"/>
+                        <constraint firstItem="oY0-yv-Kcn" firstAttribute="centerY" secondItem="eBG-Ol-zkD" secondAttribute="centerY" id="oEe-S2-fdU"/>
+                        <constraint firstAttribute="trailing" secondItem="oY0-yv-Kcn" secondAttribute="trailing" constant="15" id="pb0-as-Smq"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZk-s0-uYo">
+                    <rect key="frame" x="335" y="20" width="40" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="jxb-dS-ab2"/>
+                    </constraints>
+                    <state key="normal" image="home_trading_style"/>
+                    <state key="selected" image="home_trading_style_more"/>
+                    <connections>
+                        <action selector="styleChange:" destination="iN0-l3-epB" eventType="touchUpInside" id="Jnb-3n-EBa"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jH0-pk-6py">
+                    <rect key="frame" x="0.0" y="70" width="375" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="QHG-iH-6J5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LkV-NC-Anr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="0sU-ac-7II"/>
+                <constraint firstItem="QZk-s0-uYo" firstAttribute="bottom" secondItem="eBG-Ol-zkD" secondAttribute="bottom" id="1AL-dz-ngB"/>
+                <constraint firstAttribute="trailing" secondItem="QZk-s0-uYo" secondAttribute="trailing" id="AXW-3d-ayH"/>
+                <constraint firstItem="jH0-pk-6py" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Da4-fO-r3H"/>
+                <constraint firstItem="jH0-pk-6py" firstAttribute="top" secondItem="LkV-NC-Anr" secondAttribute="bottom" constant="20" id="Ogt-4l-PYv"/>
+                <constraint firstItem="bCM-fG-Qnz" firstAttribute="centerY" secondItem="LkV-NC-Anr" secondAttribute="centerY" id="R03-8n-srw"/>
+                <constraint firstItem="eBG-Ol-zkD" firstAttribute="leading" secondItem="bCM-fG-Qnz" secondAttribute="trailing" constant="20" id="Ws3-sq-jUv"/>
+                <constraint firstItem="bCM-fG-Qnz" firstAttribute="leading" secondItem="LkV-NC-Anr" secondAttribute="trailing" id="Xl1-Op-WGj"/>
+                <constraint firstItem="QZk-s0-uYo" firstAttribute="leading" secondItem="eBG-Ol-zkD" secondAttribute="trailing" id="ac4-WL-WsX"/>
+                <constraint firstItem="QZk-s0-uYo" firstAttribute="top" secondItem="eBG-Ol-zkD" secondAttribute="top" id="c2a-bn-eUZ"/>
+                <constraint firstAttribute="trailing" secondItem="jH0-pk-6py" secondAttribute="trailing" id="eJ4-NT-iR4"/>
+                <constraint firstItem="LkV-NC-Anr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="ffI-eU-6gg"/>
+                <constraint firstItem="eBG-Ol-zkD" firstAttribute="centerY" secondItem="LkV-NC-Anr" secondAttribute="centerY" id="mMg-Pt-FCX"/>
+            </constraints>
+            <connections>
+                <outlet property="backView" destination="LkV-NC-Anr" id="KPe-C0-5iq"/>
+                <outlet property="contentView" destination="jH0-pk-6py" id="6Lz-No-SqZ"/>
+                <outlet property="downImageView" destination="9cT-0S-g9r" id="fb4-mb-g0y"/>
+                <outlet property="searchText" destination="j0K-Dx-lqa" id="vzv-SA-Kl8"/>
+                <outlet property="selectedTitle" destination="5OF-Hd-rxr" id="dGX-Va-ehW"/>
+                <outlet property="switchBtn" destination="QZk-s0-uYo" id="skU-dT-VSW"/>
+                <outlet property="switchBtn_width" destination="jxb-dS-ab2" id="zvP-oc-BUa"/>
+            </connections>
+            <point key="canvasLocation" x="122" y="-63"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gift_icon_search" width="15" height="15"/>
+        <image name="home_trading_style" width="16" height="16"/>
+        <image name="home_trading_style_more" width="16" height="16"/>
+        <image name="trade_down_icon" width="8" height="4.5"/>
+        <image name="trade_filter_icon" width="26" height="26"/>
+    </resources>
+</document>

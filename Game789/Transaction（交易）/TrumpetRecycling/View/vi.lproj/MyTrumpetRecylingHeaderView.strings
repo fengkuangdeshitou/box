@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "回收须知"; ObjectID = "7rN-xP-iny"; */
+"7rN-xP-iny.text" = "回收须知";
+
+/* Class = "UILabel"; text = "仅支持现金赎回，回收后，请手动退出游戏，切勿再往这个角色充值，造成损失概不负责!"; ObjectID = "GMB-e6-S6F"; */
+"GMB-e6-S6F.text" = "仅支持现金赎回，回收后，请手动退出游戏，切勿再往这个角色充值，造成损失概不负责!";
+
+/* Class = "UILabel"; text = "实时到账"; ObjectID = "Nwz-cM-HLG"; */
+"Nwz-cM-HLG.text" = "实时到账";
+
+/* Class = "UILabel"; text = "小号回收成功后，该小号在本游戏中所有区服的角色会一同售出"; ObjectID = "TCx-6y-nmd"; */
+"TCx-6y-nmd.text" = "小号回收成功后，该小号在本游戏中所有区服的角色会一同售出";
+
+/* Class = "UILabel"; text = "选择小号"; ObjectID = "WiL-uZ-cUj"; */
+"WiL-uZ-cUj.text" = "选择小号";
+
+/* Class = "UILabel"; text = "累计充值满100元以上小号，可按实际充值5%金额回收金币，充值仅计算2019.09之后小号充值部分，金币/代金券充值不计算在内。"; ObjectID = "aYV-LC-ydG"; */
+"aYV-LC-ydG.text" = "累计充值满100元以上小号，可按实际充值5%金额回收金币，充值仅计算2019.09之后小号充值部分，金币/代金券充值不计算在内。";
+
+/* Class = "UILabel"; text = "可回收小号"; ObjectID = "d7M-fl-8Y4"; */
+"d7M-fl-8Y4.text" = "可回收小号";
+
+/* Class = "UILabel"; text = "如有任何疑问，可联系客服咨询!"; ObjectID = "efc-hy-e4j"; */
+"efc-hy-e4j.text" = "如有任何疑问，可联系客服咨询!";
+
+/* Class = "UILabel"; text = "购买的小号进行回收仅计算购买后充值金额，回收后72小时内可赎回，逾期不可赎回。"; ObjectID = "kgH-mV-NXp"; */
+"kgH-mV-NXp.text" = "购买的小号进行回收仅计算购买后充值金额，回收后72小时内可赎回，逾期不可赎回。";
+
+/* Class = "UILabel"; text = "赎回小号仅支持现金赎回，需额外支付该小号充值金额的3%作为赎回手续费。(例: 若小号充值满100元，回收后可获得50金币。若用户需要赎回，则需支付5+3=8元)"; ObjectID = "sXU-wv-F0C"; */
+"sXU-wv-F0C.text" = "赎回小号仅支持现金赎回，需额外支付该小号充值金额的3%作为赎回手续费；赎回后可直接选择相应的小号登录游戏！（例：若小号充值满100元，回收后获得50金币。若用户需要赎回，则需支付5+3=8元）";
+
+/* Class = "UILabel"; text = "温馨提示"; ObjectID = "so0-Ud-jDD"; */
+"so0-Ud-jDD.text" = "温馨提示";
+
+/* Class = "UILabel"; text = "确认提交"; ObjectID = "uNS-0c-9iI"; */
+"uNS-0c-9iI.text" = "确认提交";

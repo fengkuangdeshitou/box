@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "代金券仅限当前账号登陆本APP内游戏充值使用"; ObjectID = "1yL-L5-wkQ"; */
+"1yL-L5-wkQ.text" = "代金券仅限当前账号登陆本APP内游戏充值使用";
+
+/* Class = "UIButton"; normalTitle = "已过期"; ObjectID = "3S7-4e-wqN"; */
+"3S7-4e-wqN.normalTitle" = "已过期";
+
+/* Class = "UIButton"; selectedTitle = "已过期"; ObjectID = "3S7-4e-wqN"; */
+"3S7-4e-wqN.selectedTitle" = "已过期";
+
+/* Class = "UIButton"; normalTitle = "已使用"; ObjectID = "CXe-Ml-sJZ"; */
+"CXe-Ml-sJZ.normalTitle" = "已使用";
+
+/* Class = "UIButton"; selectedTitle = "已使用"; ObjectID = "CXe-Ml-sJZ"; */
+"CXe-Ml-sJZ.selectedTitle" = "已使用";
+
+/* Class = "UIButton"; normalTitle = "可使用"; ObjectID = "Fq8-Lv-fld"; */
+"Fq8-Lv-fld.normalTitle" = "可使用";
+
+/* Class = "UIButton"; selectedTitle = "可使用"; ObjectID = "Fq8-Lv-fld"; */
+"Fq8-Lv-fld.selectedTitle" = "可使用";

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="126" id="KGk-i7-Jjw" customClass="MyCommentReplyCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_icon" translatesAutoresizingMaskIntoConstraints="NO" id="eeJ-1S-A2p" customClass="YYAnimatedImageView">
+                        <rect key="frame" x="15" y="15" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="hTU-y6-nsd"/>
+                            <constraint firstAttribute="width" constant="44" id="jC1-52-YWo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="魔法之光" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2s1-J8-Ie5">
+                        <rect key="frame" x="69" y="17" width="65.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="WrP-B6-Boo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                        <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="格斗 动漫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cT6-IH-4RR">
+                        <rect key="frame" x="69" y="42.5" width="52.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="游戏画面感超强，流畅度非常高，玩法新颖独特，独具匠心的人物设计，丰富多彩的任务玩法，资源取之不尽，是一款超级良心的手游。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcM-fE-1EJ" customClass="MLLinkLabel">
+                        <rect key="frame" x="69" y="65" width="236" height="51"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfp-JP-zpx">
+                        <rect key="frame" x="305" y="27" width="0.0" height="0.0"/>
+                        <constraints>
+                            <constraint firstAttribute="width" id="at7-Ta-Yv8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lq3-sB-Yvl">
+                        <rect key="frame" x="139.5" y="18.5" width="31.5" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="OZk-Ve-BBx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.58039215690000001" green="0.38823529410000002" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eeJ-1S-A2p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="1BT-d1-ncP"/>
+                    <constraint firstItem="lq3-sB-Yvl" firstAttribute="leading" secondItem="2s1-J8-Ie5" secondAttribute="trailing" constant="5" id="1L7-Fi-rdL"/>
+                    <constraint firstAttribute="bottom" secondItem="XcM-fE-1EJ" secondAttribute="bottom" constant="10" id="B9F-E8-8iZ"/>
+                    <constraint firstItem="eeJ-1S-A2p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="FVT-Eb-egN"/>
+                    <constraint firstAttribute="trailing" secondItem="XcM-fE-1EJ" secondAttribute="trailing" constant="15" id="INg-a9-LYX"/>
+                    <constraint firstItem="cT6-IH-4RR" firstAttribute="leading" secondItem="2s1-J8-Ie5" secondAttribute="leading" id="IYk-Li-duC"/>
+                    <constraint firstItem="cT6-IH-4RR" firstAttribute="bottom" secondItem="eeJ-1S-A2p" secondAttribute="bottom" constant="-2" id="LeD-Mf-YeQ"/>
+                    <constraint firstAttribute="trailing" secondItem="Pfp-JP-zpx" secondAttribute="trailing" constant="15" id="TBP-Lh-V0Q"/>
+                    <constraint firstItem="XcM-fE-1EJ" firstAttribute="top" secondItem="cT6-IH-4RR" secondAttribute="bottom" constant="8" id="ZCw-Ip-Pxb"/>
+                    <constraint firstItem="2s1-J8-Ie5" firstAttribute="top" secondItem="eeJ-1S-A2p" secondAttribute="top" constant="2" id="bLk-wv-SEF"/>
+                    <constraint firstItem="Pfp-JP-zpx" firstAttribute="centerY" secondItem="2s1-J8-Ie5" secondAttribute="centerY" id="h6s-oE-FOV"/>
+                    <constraint firstItem="XcM-fE-1EJ" firstAttribute="leading" secondItem="cT6-IH-4RR" secondAttribute="leading" id="jvY-U9-uvH"/>
+                    <constraint firstItem="lq3-sB-Yvl" firstAttribute="centerY" secondItem="2s1-J8-Ie5" secondAttribute="centerY" id="km1-mF-d0G"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lq3-sB-Yvl" secondAttribute="trailing" constant="15" id="wdJ-5n-x3C"/>
+                    <constraint firstItem="2s1-J8-Ie5" firstAttribute="leading" secondItem="eeJ-1S-A2p" secondAttribute="trailing" constant="10" id="xoY-Xw-Ww9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="gameIcon" destination="eeJ-1S-A2p" id="fg6-rF-USY"/>
+                <outlet property="gameName" destination="2s1-J8-Ie5" id="LFq-US-e8G"/>
+                <outlet property="gameType" destination="cT6-IH-4RR" id="TlS-Oe-1ey"/>
+                <outlet property="nameRemark" destination="lq3-sB-Yvl" id="hYI-lu-PdA"/>
+                <outlet property="showContent" destination="XcM-fE-1EJ" id="YFn-cb-A0g"/>
+                <outlet property="showTime" destination="Pfp-JP-zpx" id="xmI-se-IAW"/>
+            </connections>
+            <point key="canvasLocation" x="127.53623188405798" y="105.80357142857143"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="game_icon" width="47.5" height="47.5"/>
+    </resources>
+</document>

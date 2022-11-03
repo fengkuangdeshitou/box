@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "接受免除或者限制责任、诉讼管辖约定等粗体标示条款"; ObjectID = "6v5-UE-KaB"; */
+"6v5-UE-KaB.text" = "接受免除或者限制責任、訴訟管轄約定等粗體標示條款";
+
+/* Class = "UIButton"; normalTitle = "注册账号"; ObjectID = "Ayf-vk-R4q"; */
+"Ayf-vk-R4q.normalTitle" = "註冊賬號";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "BBn-El-Mbh"; */
+"BBn-El-Mbh.placeholder" = "請輸入密碼";
+
+/* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "K6r-sn-Fmg"; */
+"K6r-sn-Fmg.normalTitle" = "《用戶協議》";
+
+/* Class = "UILabel"; text = "登录即您代表同意"; ObjectID = "T4K-g9-Ota"; */
+"T4K-g9-Ota.text" = "登錄即您代表同意";
+
+/* Class = "UITextField"; placeholder = "通行证/游戏账号"; ObjectID = "fvX-ep-blv"; */
+"fvX-ep-blv.placeholder" = "通行證/遊戲賬號";
+
+/* Class = "UIButton"; normalTitle = "本机一键登录>"; ObjectID = "hJG-c7-M5Y"; */
+"hJG-c7-M5Y.normalTitle" = "本機一鍵登錄>";
+
+/* Class = "UIButton"; normalTitle = "《 隐私政策》"; ObjectID = "qBQ-e9-jso"; */
+"qBQ-e9-jso.normalTitle" = "《隱私政策》";
+
+/* Class = "UILabel"; text = "、"; ObjectID = "rmU-SS-vsa"; */
+"rmU-SS-vsa.text" = "、";
+
+/* Class = "UIButton"; normalTitle = "进入游戏"; ObjectID = "tjL-8n-pKw"; */
+"tjL-8n-pKw.normalTitle" = "進入遊戲";
+
+/* Class = "UIButton"; normalTitle = "忘记密码?"; ObjectID = "tvq-S4-ExZ"; */
+"tvq-S4-ExZ.normalTitle" = "忘記密碼?";

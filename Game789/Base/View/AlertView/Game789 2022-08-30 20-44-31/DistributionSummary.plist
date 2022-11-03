@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MiluGame.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>114</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>FAB91C3D7EC2FDEFC6274D4035215249E9A50F61</string>
+				<key>dateExpires</key>
+				<string>2023/8/11</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>GLS9K56L44.com.vipmilu.game</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>applinks:app.milu.com</string>
+					<string>applinks:api3.app.wakaifu.com</string>
+					<string>applinks:daa0000.umindex.com</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>GLS9K56L44</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>milugame.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>7e5c9d43-806d-48a4-ab35-ad59a46b11d0</string>
+				<key>dateExpires</key>
+				<string>2023/8/11</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.vipmilu.game</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>GLS9K56L44</string>
+				<key>name</key>
+				<string>Xi'an Maiyou Network Technology Co., Ltd</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>3.2.2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

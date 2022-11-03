@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmAccountViewController">
+            <connections>
+                <outlet property="contentLabel" destination="0kc-N5-lgQ" id="oIc-Qy-Jcc"/>
+                <outlet property="coverView" destination="vEv-2z-As3" id="8Iz-b8-irQ"/>
+                <outlet property="top" destination="ZZp-HD-dOF" id="qIK-ER-w0L"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请确认当前账号资产" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3w-I0-DW6">
+                    <rect key="frame" x="15" y="15" width="138" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.剩余" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kc-N5-lgQ">
+                    <rect key="frame" x="15" y="48" width="39" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="建议使用完毕再注销账号，若您点击“仍要注销”则代表放弃当前资产，账号成功注销后无法再使用此资产。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tco-Ty-HYr">
+                    <rect key="frame" x="15" y="80" width="384" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDr-Uf-FWF">
+                    <rect key="frame" x="15" y="273.5" width="384" height="49"/>
+                    <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="RAg-Sf-Em8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <state key="normal" title="仍要注销">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="24.5"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="showAlert:" destination="-1" eventType="touchUpInside" id="oO1-QV-I8m"/>
+                    </connections>
+                </button>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-2z-As3">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQF-Ic-Y8f">
+                            <rect key="frame" x="25" y="234" width="364" height="428"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注销提醒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWJ-wo-HZI">
+                                    <rect key="frame" x="145.5" y="30" width="73.5" height="17"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="17" id="lJ6-XO-NDm"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为防止误操作，请再次确认是否要注销账号并确认注销后的影响。再次善意提醒：注销咪噜游戏账号为不可恢复的操作，成功注销账号后您将无法恢复此账号的信息。包括但不限于：" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydS-2a-2mf">
+                                    <rect key="frame" x="12" y="66" width="340" height="67"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyU-oS-Eek">
+                                    <rect key="frame" x="12" y="153" width="340" height="124.5"/>
+                                    <string key="text">1.咪噜游戏账号的个人资料和历史信息（包括但不限于头像、昵称、社区内容、浏览记录与收藏等）都将无法找回。
+2.您已开通且在有效期内的增值服务（省钱卡与VIP等）将无法继续使用，你曾经获得的金币、平台比，优惠券、游戏道具、游戏礼包等虚拟资产与权益视为您自行放弃，且无法继续使用。您理解并同意我们无法协助您重新恢复前述服务。</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*申请注销后，180天内未登录账号即可完成账号注销，180天内登录该账号可解除账号注销申请。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6OF-Ba-g2M">
+                                    <rect key="frame" x="12" y="297.5" width="340" height="31.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iU9-4A-5jQ">
+                                    <rect key="frame" x="20" y="355" width="324" height="49"/>
+                                    <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="49" id="YtE-QC-ioF"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                    <state key="normal" title="确认注销">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="24.5"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="cancellationAction:" destination="-1" eventType="touchUpInside" id="tK4-bi-xov"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="fyU-oS-Eek" firstAttribute="top" secondItem="ydS-2a-2mf" secondAttribute="bottom" constant="20" id="8Xk-CX-6nd"/>
+                                <constraint firstItem="ydS-2a-2mf" firstAttribute="leading" secondItem="fQF-Ic-Y8f" secondAttribute="leading" constant="12" id="AAA-r1-UtP"/>
+                                <constraint firstAttribute="trailing" secondItem="fyU-oS-Eek" secondAttribute="trailing" constant="12" id="D9m-zQ-rB8"/>
+                                <constraint firstAttribute="trailing" secondItem="ydS-2a-2mf" secondAttribute="trailing" constant="12" id="FIw-cH-4GF"/>
+                                <constraint firstItem="6OF-Ba-g2M" firstAttribute="top" secondItem="fyU-oS-Eek" secondAttribute="bottom" constant="20" id="JJK-rW-1hA"/>
+                                <constraint firstAttribute="bottom" secondItem="iU9-4A-5jQ" secondAttribute="bottom" constant="24" id="PNB-i1-cAy"/>
+                                <constraint firstItem="YWJ-wo-HZI" firstAttribute="top" secondItem="fQF-Ic-Y8f" secondAttribute="top" constant="30" id="Qn6-Hn-faL"/>
+                                <constraint firstItem="iU9-4A-5jQ" firstAttribute="leading" secondItem="fQF-Ic-Y8f" secondAttribute="leading" constant="20" id="b0E-V8-K4J"/>
+                                <constraint firstAttribute="trailing" secondItem="iU9-4A-5jQ" secondAttribute="trailing" constant="20" id="dMO-bc-mP1"/>
+                                <constraint firstAttribute="trailing" secondItem="6OF-Ba-g2M" secondAttribute="trailing" constant="12" id="h2U-8d-DK1"/>
+                                <constraint firstItem="ydS-2a-2mf" firstAttribute="top" secondItem="YWJ-wo-HZI" secondAttribute="bottom" constant="19" id="mYK-Vs-X2W"/>
+                                <constraint firstItem="iU9-4A-5jQ" firstAttribute="top" secondItem="6OF-Ba-g2M" secondAttribute="bottom" constant="26" id="mmI-li-zcn"/>
+                                <constraint firstItem="fyU-oS-Eek" firstAttribute="leading" secondItem="fQF-Ic-Y8f" secondAttribute="leading" constant="12" id="rAQ-Ol-xuG"/>
+                                <constraint firstItem="6OF-Ba-g2M" firstAttribute="leading" secondItem="fQF-Ic-Y8f" secondAttribute="leading" constant="12" id="u57-bc-vCe"/>
+                                <constraint firstItem="YWJ-wo-HZI" firstAttribute="centerX" secondItem="fQF-Ic-Y8f" secondAttribute="centerX" id="z6F-jj-7TL"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="8"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="fQF-Ic-Y8f" secondAttribute="trailing" constant="25" id="TYC-Gb-Spw"/>
+                        <constraint firstItem="fQF-Ic-Y8f" firstAttribute="leading" secondItem="vEv-2z-As3" secondAttribute="leading" constant="25" id="qD9-1l-Iw9"/>
+                        <constraint firstItem="fQF-Ic-Y8f" firstAttribute="centerY" secondItem="vEv-2z-As3" secondAttribute="centerY" id="r8r-cf-0DG"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="J39-DD-gUn" appends="YES" id="oYg-Hw-dpf"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vEv-2z-As3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7xS-WK-B4j"/>
+                <constraint firstItem="tco-Ty-HYr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="BYW-uA-eWK"/>
+                <constraint firstItem="c3w-I0-DW6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="LpE-V0-1XO"/>
+                <constraint firstItem="tco-Ty-HYr" firstAttribute="top" secondItem="0kc-N5-lgQ" secondAttribute="bottom" constant="15" id="O0t-gA-9vX"/>
+                <constraint firstAttribute="trailing" secondItem="vEv-2z-As3" secondAttribute="trailing" id="XCr-ko-BcJ"/>
+                <constraint firstItem="c3w-I0-DW6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="ZZp-HD-dOF"/>
+                <constraint firstItem="0kc-N5-lgQ" firstAttribute="top" secondItem="c3w-I0-DW6" secondAttribute="bottom" constant="15" id="gL1-fy-Flg"/>
+                <constraint firstAttribute="bottom" secondItem="vEv-2z-As3" secondAttribute="bottom" id="gaw-an-Tx3"/>
+                <constraint firstItem="fDr-Uf-FWF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="hnL-8v-egq"/>
+                <constraint firstAttribute="trailing" secondItem="fDr-Uf-FWF" secondAttribute="trailing" constant="15" id="iav-n9-tTm"/>
+                <constraint firstItem="fDr-Uf-FWF" firstAttribute="top" secondItem="tco-Ty-HYr" secondAttribute="bottom" constant="160" id="jzd-4I-p6H"/>
+                <constraint firstAttribute="trailing" secondItem="tco-Ty-HYr" secondAttribute="trailing" constant="15" id="m4i-s0-4dF"/>
+                <constraint firstItem="0kc-N5-lgQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="r6j-V4-R5k"/>
+                <constraint firstItem="vEv-2z-As3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uRB-jd-Rf6"/>
+            </constraints>
+            <point key="canvasLocation" x="164" y="49"/>
+        </view>
+        <tapGestureRecognizer id="J39-DD-gUn">
+            <connections>
+                <action selector="dismiss:" destination="-1" id="Dpn-7i-PTg"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

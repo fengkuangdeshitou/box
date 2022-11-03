@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyNewGameStartingController">
+            <connections>
+                <outlet property="topButton" destination="7MM-BP-hFR" id="igX-a5-qpX"/>
+                <outlet property="topView_top" destination="XP5-7f-hZz" id="7A0-s3-07e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AoP-Og-Jar">
+                    <rect key="frame" x="0.0" y="1" width="138" height="42"/>
+                    <subviews>
+                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7MM-BP-hFR">
+                            <rect key="frame" x="0.0" y="0.0" width="138" height="42"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" image="home_today_starting"/>
+                            <state key="highlighted" image="home_today_starting"/>
+                            <connections>
+                                <action selector="topButtonClick:" destination="-1" eventType="touchUpInside" id="wqb-76-MkE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="NeX-UU-GH4"/>
+                        <constraint firstItem="7MM-BP-hFR" firstAttribute="centerX" secondItem="AoP-Og-Jar" secondAttribute="centerX" id="Psz-WF-Hsz"/>
+                        <constraint firstItem="7MM-BP-hFR" firstAttribute="leading" secondItem="AoP-Og-Jar" secondAttribute="leading" id="RCO-GK-RpZ"/>
+                        <constraint firstAttribute="bottom" secondItem="7MM-BP-hFR" secondAttribute="bottom" id="aIn-cb-5p9"/>
+                        <constraint firstItem="7MM-BP-hFR" firstAttribute="centerY" secondItem="AoP-Og-Jar" secondAttribute="centerY" id="zz2-uS-Uwp"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccZ-U4-obP">
+                    <rect key="frame" x="138" y="1" width="138" height="42"/>
+                    <subviews>
+                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRO-qD-b6q">
+                            <rect key="frame" x="0.0" y="0.0" width="138" height="42"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" image="home_top_ten"/>
+                            <state key="highlighted" image="home_top_ten"/>
+                            <connections>
+                                <action selector="topButtonClick:" destination="-1" eventType="touchUpInside" id="OUs-XL-4y2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="NRO-qD-b6q" firstAttribute="centerX" secondItem="ccZ-U4-obP" secondAttribute="centerX" id="bbR-nh-u7e"/>
+                        <constraint firstAttribute="bottom" secondItem="NRO-qD-b6q" secondAttribute="bottom" id="dAc-FJ-WJ5"/>
+                        <constraint firstItem="NRO-qD-b6q" firstAttribute="leading" secondItem="ccZ-U4-obP" secondAttribute="leading" id="hTv-c0-wtV"/>
+                        <constraint firstItem="NRO-qD-b6q" firstAttribute="centerY" secondItem="ccZ-U4-obP" secondAttribute="centerY" id="uld-gd-EQO"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XbG-yb-yOH">
+                    <rect key="frame" x="276" y="1" width="138" height="42"/>
+                    <subviews>
+                        <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGb-jr-zX4">
+                            <rect key="frame" x="0.0" y="0.0" width="138" height="42"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" image="home_game_preview"/>
+                            <state key="highlighted" image="home_game_preview"/>
+                            <connections>
+                                <action selector="topButtonClick:" destination="-1" eventType="touchUpInside" id="IYG-S3-A6n"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="EGb-jr-zX4" secondAttribute="bottom" id="5e9-IG-4FP"/>
+                        <constraint firstItem="EGb-jr-zX4" firstAttribute="centerY" secondItem="XbG-yb-yOH" secondAttribute="centerY" id="6UC-iN-hos"/>
+                        <constraint firstItem="EGb-jr-zX4" firstAttribute="leading" secondItem="XbG-yb-yOH" secondAttribute="leading" id="Q3h-Ms-20d"/>
+                        <constraint firstItem="EGb-jr-zX4" firstAttribute="centerX" secondItem="XbG-yb-yOH" secondAttribute="centerX" id="eA1-H4-3r5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96470588239999999" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AoP-Og-Jar" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="82W-DW-ylQ"/>
+                <constraint firstItem="ccZ-U4-obP" firstAttribute="height" secondItem="AoP-Og-Jar" secondAttribute="height" id="SnV-wy-qKL"/>
+                <constraint firstItem="ccZ-U4-obP" firstAttribute="centerY" secondItem="AoP-Og-Jar" secondAttribute="centerY" id="Ti1-3E-feK"/>
+                <constraint firstItem="XbG-yb-yOH" firstAttribute="top" secondItem="AoP-Og-Jar" secondAttribute="top" id="VTV-aj-wXA"/>
+                <constraint firstItem="XbG-yb-yOH" firstAttribute="leading" secondItem="ccZ-U4-obP" secondAttribute="trailing" id="Vod-Yv-qV1"/>
+                <constraint firstItem="AoP-Og-Jar" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="1" id="XP5-7f-hZz"/>
+                <constraint firstItem="XbG-yb-yOH" firstAttribute="height" secondItem="AoP-Og-Jar" secondAttribute="height" id="b7o-Be-hLX"/>
+                <constraint firstItem="XbG-yb-yOH" firstAttribute="centerY" secondItem="AoP-Og-Jar" secondAttribute="centerY" id="foH-I5-gfL"/>
+                <constraint firstAttribute="trailing" secondItem="XbG-yb-yOH" secondAttribute="trailing" id="haf-7e-nMn"/>
+                <constraint firstItem="XbG-yb-yOH" firstAttribute="width" secondItem="AoP-Og-Jar" secondAttribute="width" id="lfQ-aL-aUQ"/>
+                <constraint firstItem="ccZ-U4-obP" firstAttribute="top" secondItem="AoP-Og-Jar" secondAttribute="top" id="oSV-uH-Gne"/>
+                <constraint firstItem="ccZ-U4-obP" firstAttribute="width" secondItem="AoP-Og-Jar" secondAttribute="width" id="tv7-GH-brV"/>
+                <constraint firstItem="ccZ-U4-obP" firstAttribute="leading" secondItem="AoP-Og-Jar" secondAttribute="trailing" id="wC2-II-Wfn"/>
+            </constraints>
+            <point key="canvasLocation" x="-77" y="-60"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_game_preview" width="35" height="35"/>
+        <image name="home_today_starting" width="35" height="35"/>
+        <image name="home_top_ten" width="35" height="35"/>
+    </resources>
+</document>

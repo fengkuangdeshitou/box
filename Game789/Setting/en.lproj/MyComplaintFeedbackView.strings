@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "传图片"; ObjectID = "4IM-aX-Zcr"; */
+"4IM-aX-Zcr.text" = "傳圖片";
+
+/* Class = "UITextField"; placeholder = "（必填，例如：XX部门-小花）"; ObjectID = "BFf-FT-CIt"; */
+"BFf-FT-CIt.placeholder" = "（必填，例如：XX部門-小花）";
+
+/* Class = "UITextField"; placeholder = "必填"; ObjectID = "JVV-zl-bab"; */
+"JVV-zl-bab.placeholder" = "必填";
+
+/* Class = "UILabel"; text = "温馨提示：\n\n1、受理对咪噜游戏员工或其他关联企业工作中的失职，营私舞弊，弄虚作假等违反职业道德准则的行为的投诉举报。\n\n2、对举报人信息进行严格保密是我们最基础的职责，并要求被举报者不得对举报人实施打击报复行为，一经发现，严肃处理。\n\n3、我们鼓励使用自己真实姓名进行实名举报，优先办理实名举报并及时反馈受理情况及通报处理结果。\n\n4、游戏或平台相关的问题呢，请勿在此提交，可联系客服解决。\n"; ObjectID = "Jtg-4c-e34"; */
+"Jtg-4c-e34.text" = "溫馨提示：\n\n1、受理對咪嚕遊戲員工或其他關聯企業工作中的失職，營私舞弊，弄虛作假等違反職業道德準則的行為的投訴舉報。 \n\n2、對舉報人信息進行嚴格保密是我們最基礎的職責，並要求被舉報者不得對舉報人實施打擊報復行為，一經發現，嚴肅處理。 \n\n3、我們鼓勵使用自己真實姓名進行實名舉報，優先辦理實名舉報並及時反饋受理情況及通報處理結果。 \n\n4、遊戲或平台相關的問題呢，請勿在此提交，可聯繫客服解決。 \n";
+
+/* Class = "UILabel"; text = "投诉对象联系方式"; ObjectID = "L1A-df-9sr"; */
+"L1A-df-9sr.text" = "投訴對象聯繫方式";
+
+/* Class = "UILabel"; text = "请上传3-5张图片"; ObjectID = "RVb-mo-rO5"; */
+"RVb-mo-rO5.text" = "請上傳3-5張圖片";
+
+/* Class = "UILabel"; text = "联系人"; ObjectID = "Uqy-fZ-7kD"; */
+"Uqy-fZ-7kD.text" = "聯繫人";
+
+/* Class = "UITextField"; placeholder = "必填"; ObjectID = "Z4a-kC-C9K"; */
+"Z4a-kC-C9K.placeholder" = "必填";
+
+/* Class = "UILabel"; text = "联系人QQ"; ObjectID = "b68-q6-ZX1"; */
+"b68-q6-ZX1.text" = "聯繫人QQ";
+
+/* Class = "UILabel"; text = "投诉对象"; ObjectID = "fPB-Xy-LQq"; */
+"fPB-Xy-LQq.text" = "投訴對象";
+
+/* Class = "UILabel"; text = "投诉内容"; ObjectID = "gTz-KU-edK"; */
+"gTz-KU-edK.text" = "投訴內容";
+
+/* Class = "UITextField"; placeholder = "必填"; ObjectID = "hM4-hn-d2T"; */
+"hM4-hn-d2T.placeholder" = "必填";
+
+/* Class = "UITextField"; placeholder = "必填"; ObjectID = "qcn-Rb-aa6"; */
+"qcn-Rb-aa6.placeholder" = "必填";
+
+/* Class = "UIButton"; normalTitle = "确认提交"; ObjectID = "u0M-rP-bCc"; */
+"u0M-rP-bCc.normalTitle" = "確認提交";

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyCeshiGMGameController">
+            <connections>
+                <outlet property="textField" destination="4yZ-AU-7Vw" id="wYb-ro-uNP"/>
+                <outlet property="textField_top" destination="ToH-DK-kXC" id="lUj-XC-obD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入maiyou_gameid获取小号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4yZ-AU-7Vw">
+                    <rect key="frame" x="30" y="64" width="354" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="0ON-XS-Vzm"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibS-OY-RCK">
+                    <rect key="frame" x="30" y="108" width="354" height="0.6666666666666714"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="N84-g4-V1v"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLj-ll-hnV">
+                    <rect key="frame" x="107" y="158.66666666666666" width="200" height="44"/>
+                    <color key="backgroundColor" red="0.96205157041549683" green="0.51649260520935059" blue="0.17597135901451111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="6zJ-HG-xqN"/>
+                        <constraint firstAttribute="width" constant="200" id="xgf-Ap-mkl"/>
+                    </constraints>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sureClick:" destination="-1" eventType="touchUpInside" id="haj-CE-cVE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ibS-OY-RCK" firstAttribute="leading" secondItem="4yZ-AU-7Vw" secondAttribute="leading" id="3An-lx-ErH"/>
+                <constraint firstItem="ibS-OY-RCK" firstAttribute="centerX" secondItem="4yZ-AU-7Vw" secondAttribute="centerX" id="7MM-e3-M3Y"/>
+                <constraint firstItem="fLj-ll-hnV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="II8-8h-8NP"/>
+                <constraint firstItem="4yZ-AU-7Vw" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="ToH-DK-kXC"/>
+                <constraint firstItem="ibS-OY-RCK" firstAttribute="top" secondItem="4yZ-AU-7Vw" secondAttribute="bottom" id="l1p-3S-w5x"/>
+                <constraint firstItem="fLj-ll-hnV" firstAttribute="top" secondItem="ibS-OY-RCK" secondAttribute="bottom" constant="50" id="mYN-0x-PQr"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="4yZ-AU-7Vw" secondAttribute="trailing" constant="30" id="mrf-6h-Ys4"/>
+                <constraint firstItem="4yZ-AU-7Vw" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="rCa-bn-C1w"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="135" y="60"/>
+        </view>
+    </objects>
+</document>

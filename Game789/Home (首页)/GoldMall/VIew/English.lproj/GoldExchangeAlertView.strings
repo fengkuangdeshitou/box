@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "确认兑换"; ObjectID = "BpI-y7-lw9"; */
+"BpI-y7-lw9.normalTitle" = "确认兑换";
+
+/* Class = "UILabel"; text = "你需要兑换此商品吗?"; ObjectID = "Pes-eE-yAB"; */
+"Pes-eE-yAB.text" = "你需要兑换此商品吗?";
+
+/* Class = "UILabel"; text = "确认兑换"; ObjectID = "aSA-0T-Q4E"; */
+"aSA-0T-Q4E.text" = "确认兑换";
+
+/* Class = "UILabel"; text = "需要兑换900金币"; ObjectID = "bfF-MW-JDf"; */
+"bfF-MW-JDf.text" = "需要兑换900金币";
+
+/* Class = "UIButton"; normalTitle = "我再想想"; ObjectID = "iOh-Z5-dwN"; */
+"iOh-Z5-dwN.normalTitle" = "我再想想";

@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "注 册"; ObjectID = "36p-Gc-Nad"; */
+"36p-Gc-Nad.normalTitle" = "注 册";
+
+/* Class = "UILabel"; text = "接受免除或者限制责任、诉讼管辖约定等粗体标示条款"; ObjectID = "6xN-vC-d99"; */
+"6xN-vC-d99.text" = "接受免除或者限制责任、诉讼管辖约定等粗体标示条款";
+
+/* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "9nK-tx-Qlm"; */
+"9nK-tx-Qlm.normalTitle" = "《用户协议》";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "Dkl-Py-bsd"; */
+"Dkl-Py-bsd.text" = "密码";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "Ic7-Om-E9J"; */
+"Ic7-Om-E9J.text" = "账号";
+
+/* Class = "UILabel"; text = "、"; ObjectID = "Nwu-el-EWy"; */
+"Nwu-el-EWy.text" = "、";
+
+/* Class = "UILabel"; text = "注册即您代表同意"; ObjectID = "Voa-sG-Oke"; */
+"Voa-sG-Oke.text" = "注册即您代表同意";
+
+/* Class = "UITextField"; placeholder = "请输入账号"; ObjectID = "Zs8-EC-l6b"; */
+"Zs8-EC-l6b.placeholder" = "请输入账号";
+
+/* Class = "UITextField"; placeholder = "请输入6-8位密码"; ObjectID = "iP5-1m-FLB"; */
+"iP5-1m-FLB.placeholder" = "请输入6-8位密码";
+
+/* Class = "UIButton"; normalTitle = "《 隐私政策》"; ObjectID = "mKz-ui-Z7X"; */
+"mKz-ui-Z7X.normalTitle" = "《 隐私政策》";

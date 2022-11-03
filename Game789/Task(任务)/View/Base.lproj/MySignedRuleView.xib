@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MySignedRuleView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iXJ-au-bYP">
+                    <rect key="frame" x="50" y="223" width="314" height="450"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="签到规则" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUo-AW-Nh8">
+                            <rect key="frame" x="120.5" y="30" width="73.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="flW-1R-Jbc">
+                            <rect key="frame" x="15" y="66" width="284" height="324.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <attributedString key="attributedText">
+                                <fragment>
+                                    <string key="content">1.普通用户每签到1次可获得1金币奖励，会员每签到一次可额外获得相应身份金币奖励（子爵额外得1金币，伯爵2金币，公爵3金币，国王5金币，皇帝20金币）；
+2.连续签到</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" paragraphSpacingBefore="5" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="3天/7天/15天/28天">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.75294117647058822" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" paragraphSpacingBefore="5" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="，分别可领取额外奖励">
+                                    <attributes>
+                                        <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" paragraphSpacingBefore="5" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="10金币/20金币/50金币/100金币">
+                                    <attributes>
+                                        <color key="NSColor" red="1" green="0.75294117647058822" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" paragraphSpacingBefore="5" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">。连续签到时间越长，金币越丰厚;
+3.普通用户连续签到满28天，可获得208个金币；永久会员签满28天，可获得768个金币；
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="4" paragraphSpacingBefore="5" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">4.签到中断或每月第1天，连续签到天数将重新进行计算；
+5.同一手机/设备/身份证视为同一用户；
+6.本活动最终解释权归咪噜游戏官方所属。</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="6" paragraphSpacingBefore="5" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="476-dF-LNN">
+                            <rect key="frame" x="0.0" y="406" width="314" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="Xtm-Xx-Dey"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="确定">
+                                <color key="titleColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="sureBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="TDH-Kk-til"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gOw-qh-OMd">
+                            <rect key="frame" x="0.0" y="405.5" width="314" height="0.5"/>
+                            <color key="backgroundColor" red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="dr1-Pt-Lhh"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="flW-1R-Jbc" secondAttribute="trailing" constant="15" id="267-Ij-Ckx"/>
+                        <constraint firstAttribute="bottom" secondItem="476-dF-LNN" secondAttribute="bottom" id="5y9-Rg-Lw8"/>
+                        <constraint firstAttribute="height" constant="450" id="9it-ct-Nju"/>
+                        <constraint firstItem="dUo-AW-Nh8" firstAttribute="centerX" secondItem="iXJ-au-bYP" secondAttribute="centerX" id="BL3-Oy-85O"/>
+                        <constraint firstItem="gOw-qh-OMd" firstAttribute="top" secondItem="flW-1R-Jbc" secondAttribute="bottom" constant="15" id="CUG-zL-Tdw"/>
+                        <constraint firstItem="476-dF-LNN" firstAttribute="leading" secondItem="iXJ-au-bYP" secondAttribute="leading" id="D0x-xa-zdZ"/>
+                        <constraint firstAttribute="trailing" secondItem="476-dF-LNN" secondAttribute="trailing" id="EBx-2o-bla"/>
+                        <constraint firstItem="dUo-AW-Nh8" firstAttribute="top" secondItem="iXJ-au-bYP" secondAttribute="top" constant="30" id="IHo-8B-qj2"/>
+                        <constraint firstItem="476-dF-LNN" firstAttribute="top" secondItem="gOw-qh-OMd" secondAttribute="bottom" id="Rqi-qc-lDd"/>
+                        <constraint firstItem="gOw-qh-OMd" firstAttribute="leading" secondItem="iXJ-au-bYP" secondAttribute="leading" id="c32-O5-gal"/>
+                        <constraint firstItem="flW-1R-Jbc" firstAttribute="top" secondItem="dUo-AW-Nh8" secondAttribute="bottom" constant="15" id="h8c-wu-cZv"/>
+                        <constraint firstAttribute="trailing" secondItem="gOw-qh-OMd" secondAttribute="trailing" id="xLE-ll-lXZ"/>
+                        <constraint firstItem="flW-1R-Jbc" firstAttribute="leading" secondItem="iXJ-au-bYP" secondAttribute="leading" constant="15" id="zFH-fp-ncd"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="iXJ-au-bYP" secondAttribute="trailing" constant="50" id="7Bd-HX-QPi"/>
+                <constraint firstItem="iXJ-au-bYP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="COf-uJ-8IQ"/>
+                <constraint firstItem="iXJ-au-bYP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qbf-55-CxH"/>
+            </constraints>
+            <connections>
+                <outlet property="showTitle" destination="dUo-AW-Nh8" id="rCB-2P-Pkp"/>
+                <outlet property="textView" destination="flW-1R-Jbc" id="t9A-Do-HQn"/>
+            </connections>
+            <point key="canvasLocation" x="128" y="60"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MyShowVoucherInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="104" height="45"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="104" height="45"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail_voucher_bg_received" translatesAutoresizingMaskIntoConstraints="NO" id="NU2-mZ-FG5">
+                        <rect key="frame" x="0.0" y="0.0" width="104" height="45"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="满2000减200" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgD-03-DQi">
+                        <rect key="frame" x="0.0" y="27" width="82" height="13"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOU-5n-Ire">
+                        <rect key="frame" x="16.5" y="5" width="43.5" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="9dV-Es-knp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6E-sf-Acn">
+                        <rect key="frame" x="5.5" y="13" width="11" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPR-n3-12G">
+                        <rect key="frame" x="60" y="13" width="16" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBS-CG-3gb">
+                        <rect key="frame" x="82" y="0.0" width="22" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="ZAE-67-HWK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal">
+                            <string key="title">领
+取</string>
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="receivedBtnClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="tn5-oU-syW"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="NU2-mZ-FG5" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1AJ-r2-x7I"/>
+                <constraint firstItem="NU2-mZ-FG5" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="362-Fl-OVr"/>
+                <constraint firstAttribute="bottom" secondItem="dgD-03-DQi" secondAttribute="bottom" constant="5" id="39X-uq-ft9"/>
+                <constraint firstItem="mOU-5n-Ire" firstAttribute="bottom" secondItem="cPR-n3-12G" secondAttribute="bottom" constant="2" id="4NY-by-UGI"/>
+                <constraint firstItem="cBS-CG-3gb" firstAttribute="leading" secondItem="dgD-03-DQi" secondAttribute="trailing" id="6XG-4x-Tf0"/>
+                <constraint firstItem="mOU-5n-Ire" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Bsm-Mi-79c"/>
+                <constraint firstItem="mOU-5n-Ire" firstAttribute="leading" secondItem="x6E-sf-Acn" secondAttribute="trailing" id="SqA-gn-2hh"/>
+                <constraint firstItem="x6E-sf-Acn" firstAttribute="bottom" secondItem="mOU-5n-Ire" secondAttribute="bottom" constant="-2" id="Su0-sp-0M9"/>
+                <constraint firstAttribute="bottom" secondItem="cBS-CG-3gb" secondAttribute="bottom" id="VJy-IE-rnJ"/>
+                <constraint firstItem="cBS-CG-3gb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Yz1-e7-s1p"/>
+                <constraint firstItem="NU2-mZ-FG5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bZM-gW-OU5"/>
+                <constraint firstItem="cPR-n3-12G" firstAttribute="leading" secondItem="mOU-5n-Ire" secondAttribute="trailing" id="bdD-xE-v4u"/>
+                <constraint firstItem="dgD-03-DQi" firstAttribute="top" secondItem="mOU-5n-Ire" secondAttribute="bottom" id="c0B-WK-S66"/>
+                <constraint firstItem="NU2-mZ-FG5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dZQ-vg-4pT"/>
+                <constraint firstAttribute="trailing" secondItem="cBS-CG-3gb" secondAttribute="trailing" id="ddx-S2-Qo8"/>
+                <constraint firstItem="dgD-03-DQi" firstAttribute="centerX" secondItem="mOU-5n-Ire" secondAttribute="centerX" constant="3" id="ejZ-iH-t1s"/>
+                <constraint firstItem="dgD-03-DQi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tAF-T9-JE2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="158" height="74"/>
+            <connections>
+                <outlet property="receivedBtn" destination="cBS-CG-3gb" id="JKi-S0-Tz8"/>
+                <outlet property="showBgImage" destination="NU2-mZ-FG5" id="jux-Na-7aX"/>
+                <outlet property="showDiscount" destination="dgD-03-DQi" id="m33-9s-ewq"/>
+                <outlet property="showMoney" destination="mOU-5n-Ire" id="GG8-ta-uke"/>
+            </connections>
+            <point key="canvasLocation" x="-35" y="22"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="detail_voucher_bg_received" width="104" height="45"/>
+    </resources>
+</document>

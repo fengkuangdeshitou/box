@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "金币全额兑换代金券"; ObjectID = "2qH-vr-VqP"; */
+"2qH-vr-VqP.text" = "金币全额兑换代金券";
+
+/* Class = "UIButton"; normalTitle = "如何获得金币"; ObjectID = "cGy-Li-gps"; */
+"cGy-Li-gps.normalTitle" = "如何获得金币";
+
+/* Class = "UIButton"; normalTitle = "金币明细"; ObjectID = "e85-ui-Nxb"; */
+"e85-ui-Nxb.normalTitle" = "金币明细";
+
+/* Class = "UILabel"; text = "我的金币：300"; ObjectID = "jN4-zu-aPY"; */
+"jN4-zu-aPY.text" = "我的金币：300";
+
+/* Class = "UIButton"; normalTitle = "立即兑换"; ObjectID = "y3N-Q9-x3W"; */
+"y3N-Q9-x3W.normalTitle" = "立即兑换";

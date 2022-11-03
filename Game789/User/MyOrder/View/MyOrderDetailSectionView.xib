@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyOrderDetailSectionView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ow-t8-pGp">
+                    <rect key="frame" x="15" y="0.0" width="128" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金额" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FS6-aE-Yja">
+                    <rect key="frame" x="143" y="0.0" width="128" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="备注" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TU5-pA-DUd">
+                    <rect key="frame" x="271" y="0.0" width="128" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="TU5-pA-DUd" firstAttribute="centerY" secondItem="7ow-t8-pGp" secondAttribute="centerY" id="1rK-2u-uax"/>
+                <constraint firstItem="TU5-pA-DUd" firstAttribute="width" secondItem="7ow-t8-pGp" secondAttribute="width" id="5OG-jC-C9M"/>
+                <constraint firstItem="TU5-pA-DUd" firstAttribute="height" secondItem="7ow-t8-pGp" secondAttribute="height" id="7k7-v5-qIr"/>
+                <constraint firstAttribute="trailing" secondItem="TU5-pA-DUd" secondAttribute="trailing" constant="15" id="EK9-jS-EhB"/>
+                <constraint firstAttribute="bottom" secondItem="7ow-t8-pGp" secondAttribute="bottom" id="EMs-39-ssA"/>
+                <constraint firstItem="FS6-aE-Yja" firstAttribute="width" secondItem="7ow-t8-pGp" secondAttribute="width" id="El2-Lt-pdv"/>
+                <constraint firstItem="FS6-aE-Yja" firstAttribute="height" secondItem="7ow-t8-pGp" secondAttribute="height" id="Odt-8b-hJx"/>
+                <constraint firstItem="FS6-aE-Yja" firstAttribute="centerY" secondItem="7ow-t8-pGp" secondAttribute="centerY" id="T3C-0Z-a1A"/>
+                <constraint firstItem="7ow-t8-pGp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dZZ-Zu-h5f"/>
+                <constraint firstItem="TU5-pA-DUd" firstAttribute="leading" secondItem="FS6-aE-Yja" secondAttribute="trailing" id="rcL-rw-Pam"/>
+                <constraint firstItem="FS6-aE-Yja" firstAttribute="leading" secondItem="7ow-t8-pGp" secondAttribute="trailing" id="w2b-VY-vEo"/>
+                <constraint firstItem="7ow-t8-pGp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="wQU-yQ-SwV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="showTitle" destination="FS6-aE-Yja" id="U45-Ds-onm"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="62"/>
+        </view>
+    </objects>
+</document>

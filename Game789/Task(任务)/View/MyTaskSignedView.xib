@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyTaskSignedView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task_signed_bg" translatesAutoresizingMaskIntoConstraints="NO" id="NeY-wN-J5P">
+                    <rect key="frame" x="62" y="225.66666666666663" width="290" height="285"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="285" id="Wgv-FX-j4k"/>
+                        <constraint firstAttribute="width" constant="290" id="yx5-zc-QMN"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您已连续签到0天" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7h-ib-BTP">
+                    <rect key="frame" x="164" y="409.33333333333331" width="86" height="13.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncc-Kh-cao">
+                    <rect key="frame" x="131.33333333333331" y="456" width="151.33333333333331" height="36.666666666666686"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="151.5" id="YWE-wt-xYs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                    <state key="normal" title="好的" backgroundImage="task_signed_btn_bg"/>
+                    <connections>
+                        <action selector="sureBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="nQo-bj-w3X"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恭喜您本次签到" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnr-fZ-gcM">
+                    <rect key="frame" x="142.66666666666669" y="346" width="128.66666666666669" height="21.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="获得0金币" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bS7-hQ-JJg">
+                    <rect key="frame" x="165" y="372.66666666666669" width="84.333333333333314" height="21.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WHn-pA-xAZ">
+                    <rect key="frame" x="260" y="415.66666666666669" width="26.666666666666686" height="0.66666666666668561"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="QXR-yJ-rxY"/>
+                        <constraint firstAttribute="width" constant="26.5" id="oFf-Qa-uPS"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ztf-aR-ab7">
+                    <rect key="frame" x="127.66666666666667" y="415.66666666666669" width="26.333333333333329" height="0.66666666666668561"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26.5" id="CAn-Bq-0Vn"/>
+                        <constraint firstAttribute="height" constant="0.5" id="eMu-Pq-QcW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="T7h-ib-BTP" firstAttribute="top" secondItem="bS7-hQ-JJg" secondAttribute="bottom" constant="15" id="1rV-qN-9Bk"/>
+                <constraint firstItem="bS7-hQ-JJg" firstAttribute="centerX" secondItem="rnr-fZ-gcM" secondAttribute="centerX" id="3tU-2i-biO"/>
+                <constraint firstItem="NeY-wN-J5P" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QE3-JQ-SN9"/>
+                <constraint firstItem="rnr-fZ-gcM" firstAttribute="top" secondItem="NeY-wN-J5P" secondAttribute="top" constant="120.5" id="X3H-Lb-zuN"/>
+                <constraint firstItem="T7h-ib-BTP" firstAttribute="centerX" secondItem="rnr-fZ-gcM" secondAttribute="centerX" id="a7S-Fa-3LQ"/>
+                <constraint firstItem="Ncc-Kh-cao" firstAttribute="bottom" secondItem="NeY-wN-J5P" secondAttribute="bottom" constant="-18" id="fOj-ye-fzk"/>
+                <constraint firstItem="T7h-ib-BTP" firstAttribute="leading" secondItem="Ztf-aR-ab7" secondAttribute="trailing" constant="10" id="fZ5-DI-Qnz"/>
+                <constraint firstItem="WHn-pA-xAZ" firstAttribute="centerY" secondItem="Ztf-aR-ab7" secondAttribute="centerY" id="hhq-Ml-Kaf"/>
+                <constraint firstItem="NeY-wN-J5P" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mdU-0k-98F"/>
+                <constraint firstItem="bS7-hQ-JJg" firstAttribute="top" secondItem="rnr-fZ-gcM" secondAttribute="bottom" constant="5" id="ndF-3X-6kX"/>
+                <constraint firstItem="WHn-pA-xAZ" firstAttribute="leading" secondItem="T7h-ib-BTP" secondAttribute="trailing" constant="10" id="qH0-f5-V3M"/>
+                <constraint firstItem="Ncc-Kh-cao" firstAttribute="centerX" secondItem="NeY-wN-J5P" secondAttribute="centerX" id="uuE-Be-MDX"/>
+                <constraint firstItem="T7h-ib-BTP" firstAttribute="centerY" secondItem="Ztf-aR-ab7" secondAttribute="centerY" id="xyi-jM-i87"/>
+                <constraint firstItem="rnr-fZ-gcM" firstAttribute="centerX" secondItem="NeY-wN-J5P" secondAttribute="centerX" id="z5f-Eg-qdT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="showCoinCount" destination="bS7-hQ-JJg" id="9xd-4q-gUa"/>
+                <outlet property="showKeepDays" destination="T7h-ib-BTP" id="Pok-gv-NDf"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="138.58695652173915"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="task_signed_bg" width="290" height="285"/>
+        <image name="task_signed_btn_bg" width="151.66667175292969" height="36.666667938232422"/>
+    </resources>
+</document>

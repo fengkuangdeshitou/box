@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MyUserReturnTaskCell" id="KGk-i7-Jjw" customClass="MyUserReturnTaskCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_return_task1" translatesAutoresizingMaskIntoConstraints="NO" id="RN6-pa-sCz">
+                        <rect key="frame" x="15" y="16" width="28" height="28"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="签到" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DL-d3-YgV">
+                        <rect key="frame" x="51.5" y="11" width="31" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="留下你的专属足迹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xey-e8-W3G">
+                        <rect key="frame" x="51.5" y="33" width="106.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kw6-KA-eho">
+                        <rect key="frame" x="248" y="18.5" width="57" height="23"/>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.34509803921568627" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="57" id="PRt-1g-ZZ1"/>
+                            <constraint firstAttribute="height" constant="23" id="vHG-ad-3LX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="前往">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="btnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Pwg-Y5-T1D"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_return_line" translatesAutoresizingMaskIntoConstraints="NO" id="pgs-lI-aXB">
+                        <rect key="frame" x="15" y="59.5" width="290" height="0.5"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="pgs-lI-aXB" secondAttribute="bottom" id="03C-1d-O8F"/>
+                    <constraint firstItem="pgs-lI-aXB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="7Ty-1s-hqB"/>
+                    <constraint firstAttribute="trailing" secondItem="pgs-lI-aXB" secondAttribute="trailing" constant="15" id="ECk-db-3pq"/>
+                    <constraint firstItem="xey-e8-W3G" firstAttribute="bottom" secondItem="RN6-pa-sCz" secondAttribute="bottom" constant="5" id="Gea-k5-noE"/>
+                    <constraint firstItem="RN6-pa-sCz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="I5P-cf-0x1"/>
+                    <constraint firstItem="xey-e8-W3G" firstAttribute="leading" secondItem="2DL-d3-YgV" secondAttribute="leading" id="NZg-70-mjZ"/>
+                    <constraint firstItem="RN6-pa-sCz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Zg3-Vc-RGq"/>
+                    <constraint firstItem="2DL-d3-YgV" firstAttribute="top" secondItem="RN6-pa-sCz" secondAttribute="top" constant="-5" id="h7Y-HP-T7c"/>
+                    <constraint firstItem="2DL-d3-YgV" firstAttribute="leading" secondItem="RN6-pa-sCz" secondAttribute="trailing" constant="8.5" id="iUC-Jv-phF"/>
+                    <constraint firstItem="Kw6-KA-eho" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="p7L-HG-RtN"/>
+                    <constraint firstAttribute="trailing" secondItem="Kw6-KA-eho" secondAttribute="trailing" constant="15" id="sIQ-Eo-4Ae"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="showDesc" destination="xey-e8-W3G" id="Q51-f3-eWx"/>
+                <outlet property="showImage" destination="RN6-pa-sCz" id="den-oQ-yX1"/>
+                <outlet property="showStatus" destination="Kw6-KA-eho" id="eUq-tB-V8N"/>
+                <outlet property="showTitle" destination="2DL-d3-YgV" id="j3C-lS-ZzA"/>
+            </connections>
+            <point key="canvasLocation" x="211.59420289855075" y="81.696428571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="user_return_line" width="313.5" height="0.5"/>
+        <image name="user_return_task1" width="28" height="28"/>
+    </resources>
+</document>

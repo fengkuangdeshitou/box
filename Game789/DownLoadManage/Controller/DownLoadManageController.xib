@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DownLoadManageController">
+            <connections>
+                <outlet property="allButton" destination="jGF-gk-hCl" id="FZV-aY-Pjk"/>
+                <outlet property="bottomView" destination="Tjw-L2-Hmv" id="UaU-an-co4"/>
+                <outlet property="view" destination="bU4-SE-zTD" id="B7o-8N-X18"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bU4-SE-zTD">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tjw-L2-Hmv">
+                    <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGF-gk-hCl">
+                            <rect key="frame" x="0.0" y="0.0" width="207" height="44"/>
+                            <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="全选">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" title="全不选"/>
+                            <connections>
+                                <action selector="selectAllButtonClick:" destination="-1" eventType="touchUpInside" id="G3w-Kg-aMJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yx-Ja-weR">
+                            <rect key="frame" x="207" y="0.0" width="207" height="44"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="删除">
+                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </state>
+                            <connections>
+                                <action selector="deleteButtonClick:" destination="-1" eventType="touchUpInside" id="UfT-p4-opj"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="6yx-Ja-weR" firstAttribute="top" secondItem="Tjw-L2-Hmv" secondAttribute="top" id="23o-Oc-QQX"/>
+                        <constraint firstAttribute="trailing" secondItem="6yx-Ja-weR" secondAttribute="trailing" id="6iQ-Ea-FHH"/>
+                        <constraint firstItem="jGF-gk-hCl" firstAttribute="leading" secondItem="Tjw-L2-Hmv" secondAttribute="leading" id="Abe-18-Nyp"/>
+                        <constraint firstItem="6yx-Ja-weR" firstAttribute="width" secondItem="jGF-gk-hCl" secondAttribute="width" id="DwJ-My-J5p"/>
+                        <constraint firstAttribute="height" constant="44" id="LiY-jd-mU2"/>
+                        <constraint firstItem="6yx-Ja-weR" firstAttribute="height" secondItem="jGF-gk-hCl" secondAttribute="height" id="chN-et-hmH"/>
+                        <constraint firstItem="jGF-gk-hCl" firstAttribute="centerY" secondItem="Tjw-L2-Hmv" secondAttribute="centerY" id="fAp-7J-nDx"/>
+                        <constraint firstItem="6yx-Ja-weR" firstAttribute="centerY" secondItem="Tjw-L2-Hmv" secondAttribute="centerY" id="vsc-CM-Gzt"/>
+                        <constraint firstItem="6yx-Ja-weR" firstAttribute="leading" secondItem="jGF-gk-hCl" secondAttribute="trailing" id="xqW-S2-15p"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Tjw-L2-Hmv" firstAttribute="leading" secondItem="Hyh-2e-eA3" secondAttribute="leading" id="2vz-V9-s2j"/>
+                <constraint firstItem="Tjw-L2-Hmv" firstAttribute="bottom" secondItem="Hyh-2e-eA3" secondAttribute="bottom" id="b36-eA-Vg5"/>
+                <constraint firstItem="Hyh-2e-eA3" firstAttribute="trailing" secondItem="Tjw-L2-Hmv" secondAttribute="trailing" id="lIw-Xd-Agy"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Hyh-2e-eA3"/>
+            <point key="canvasLocation" x="123" y="317"/>
+        </view>
+    </objects>
+</document>

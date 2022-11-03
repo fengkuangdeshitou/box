@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameDetailInfoController">
+            <connections>
+                <outlet property="bottomView" destination="UzJ-3a-3NC" id="b5p-HL-ils"/>
+                <outlet property="collectionButton" destination="bR3-BU-iC9" id="cxc-j4-Trl"/>
+                <outlet property="collectionButton1" destination="BmE-u2-aD2" id="x6H-nL-Abb"/>
+                <outlet property="commitButton" destination="CRG-40-cZg" id="WPf-O1-ag4"/>
+                <outlet property="contactServices" destination="BmE-u2-aD2" id="bSp-Zh-BR4"/>
+                <outlet property="downLoad" destination="3by-TM-Nsm" id="kO0-nW-Kg3"/>
+                <outlet property="previewButton" destination="yZb-7J-PRh" id="U4N-5s-Qhb"/>
+                <outlet property="view" destination="Y2A-6z-pMY" id="5ql-4i-5LT"/>
+                <outlet property="vipButton" destination="0IB-tU-idi" id="cdd-ja-S6I"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Y2A-6z-pMY">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UzJ-3a-3NC">
+                    <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                    <subviews>
+                        <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IB-tU-idi">
+                            <rect key="frame" x="207" y="5" width="111" height="39"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-12" maxY="0.0"/>
+                            <state key="normal" title="至尊版下载" backgroundImage="detail_yellow">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="downGameAction:" destination="-1" eventType="touchUpInside" id="kWQ-wo-W2n"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="20" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZb-7J-PRh">
+                            <rect key="frame" x="57.5" y="5" width="164.5" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="39" id="JUa-Um-MCV"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="9" maxY="0.0"/>
+                            <state key="normal" title="极速云玩" backgroundImage="detail_blue"/>
+                            <connections>
+                                <action selector="cloudBtnClick:" destination="-1" eventType="touchUpInside" id="CJV-xl-zsq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Es-AO-E3U">
+                            <rect key="frame" x="333" y="8" width="22" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="6PB-JF-Usr"/>
+                                <constraint firstAttribute="width" constant="22" id="ERs-ha-zbn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" image="small_comment_icon">
+                                <color key="titleColor" red="1" green="0.54117647059999996" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="commitGameAction:" destination="-1" eventType="touchUpInside" id="aV5-vt-WB8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bR3-BU-iC9" customClass="MyLikeButton">
+                            <rect key="frame" x="20" y="8" width="22" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="22" id="8f7-fM-iwz"/>
+                                <constraint firstAttribute="height" constant="22" id="Ow8-Qz-F0h"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" backgroundImage="game_collection_normal">
+                                <color key="titleColor" red="1" green="0.54117647059999996" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" backgroundImage="game_collection_selected"/>
+                            <connections>
+                                <action selector="contactServicesAction:" destination="-1" eventType="touchUpInside" id="A1W-gl-rzK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmE-u2-aD2" customClass="MyLikeButton">
+                            <rect key="frame" x="16" y="31.5" width="30" height="10"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="9Q6-4R-bGn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="收藏">
+                                <color key="titleColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="contactServicesAction:" destination="-1" eventType="touchUpInside" id="Nj4-xc-tSO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRG-40-cZg">
+                            <rect key="frame" x="329" y="31.5" width="30" height="10"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="10" id="1v3-a7-J7B"/>
+                                <constraint firstAttribute="width" constant="30" id="mjC-q7-lXb"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="点评">
+                                <color key="titleColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="commitGameAction:" destination="-1" eventType="touchUpInside" id="mdq-WX-Wfb"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3by-TM-Nsm">
+                            <rect key="frame" x="57.5" y="5" width="260.5" height="39"/>
+                            <color key="backgroundColor" red="1" green="0.75294117650000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="至尊版下载"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="19.5"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="installAction:" destination="-1" eventType="touchUpInside" id="qhv-9G-5sQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="3by-TM-Nsm" firstAttribute="leading" secondItem="yZb-7J-PRh" secondAttribute="leading" id="3Nq-qv-M2c"/>
+                        <constraint firstItem="3by-TM-Nsm" firstAttribute="bottom" secondItem="yZb-7J-PRh" secondAttribute="bottom" id="BBV-x3-ukR"/>
+                        <constraint firstItem="0IB-tU-idi" firstAttribute="centerY" secondItem="UzJ-3a-3NC" secondAttribute="centerY" id="Dm6-br-nYc"/>
+                        <constraint firstItem="BmE-u2-aD2" firstAttribute="centerX" secondItem="bR3-BU-iC9" secondAttribute="centerX" id="FW4-9H-6Xc"/>
+                        <constraint firstAttribute="trailing" secondItem="8Es-AO-E3U" secondAttribute="trailing" constant="20" id="GFH-oZ-ayp"/>
+                        <constraint firstItem="bR3-BU-iC9" firstAttribute="top" secondItem="UzJ-3a-3NC" secondAttribute="top" constant="8" id="J1K-Rs-DPc"/>
+                        <constraint firstItem="BmE-u2-aD2" firstAttribute="top" secondItem="bR3-BU-iC9" secondAttribute="bottom" constant="1.5" id="LKC-rW-0rV"/>
+                        <constraint firstItem="yZb-7J-PRh" firstAttribute="top" secondItem="UzJ-3a-3NC" secondAttribute="top" constant="5" id="Ndl-04-XBe"/>
+                        <constraint firstItem="CRG-40-cZg" firstAttribute="bottom" secondItem="BmE-u2-aD2" secondAttribute="bottom" id="RWk-TY-vp0"/>
+                        <constraint firstItem="0IB-tU-idi" firstAttribute="leading" secondItem="yZb-7J-PRh" secondAttribute="trailing" constant="-15" id="WU4-hQ-SGN"/>
+                        <constraint firstItem="yZb-7J-PRh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="BmE-u2-aD2" secondAttribute="trailing" constant="10" id="XBd-vD-nig"/>
+                        <constraint firstItem="bR3-BU-iC9" firstAttribute="leading" secondItem="UzJ-3a-3NC" secondAttribute="leading" constant="20" id="XdK-R8-nzK"/>
+                        <constraint firstItem="8Es-AO-E3U" firstAttribute="centerX" secondItem="CRG-40-cZg" secondAttribute="centerX" id="YGx-Yf-ICT"/>
+                        <constraint firstItem="3by-TM-Nsm" firstAttribute="centerX" secondItem="UzJ-3a-3NC" secondAttribute="centerX" id="aYc-wy-5UW"/>
+                        <constraint firstItem="0IB-tU-idi" firstAttribute="trailing" secondItem="3by-TM-Nsm" secondAttribute="trailing" id="bYb-to-evs"/>
+                        <constraint firstAttribute="height" constant="49" id="hPc-NI-Hy2"/>
+                        <constraint firstItem="3by-TM-Nsm" firstAttribute="top" secondItem="yZb-7J-PRh" secondAttribute="top" id="ltW-Yl-iyC"/>
+                        <constraint firstItem="CRG-40-cZg" firstAttribute="centerY" secondItem="BmE-u2-aD2" secondAttribute="centerY" id="p2g-kD-VP2"/>
+                        <constraint firstItem="8Es-AO-E3U" firstAttribute="top" secondItem="bR3-BU-iC9" secondAttribute="top" id="wTv-Ab-me9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="HWP-gA-k9S"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="UzJ-3a-3NC" firstAttribute="leading" secondItem="HWP-gA-k9S" secondAttribute="leading" id="Fc1-eb-KDh"/>
+                <constraint firstItem="HWP-gA-k9S" firstAttribute="bottom" secondItem="UzJ-3a-3NC" secondAttribute="bottom" id="fRC-Zt-pXW"/>
+                <constraint firstItem="UzJ-3a-3NC" firstAttribute="trailing" secondItem="HWP-gA-k9S" secondAttribute="trailing" id="ufg-H4-fhJ"/>
+            </constraints>
+            <point key="canvasLocation" x="182" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="detail_blue" width="164.5" height="39"/>
+        <image name="detail_yellow" width="111" height="39"/>
+        <image name="game_collection_normal" width="26" height="26"/>
+        <image name="game_collection_selected" width="26" height="26"/>
+        <image name="small_comment_icon" width="26" height="26"/>
+    </resources>
+</document>

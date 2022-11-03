@@ -1,0 +1,47 @@
+/* Class = "UIButton"; normalTitle = "確認註冊"; ObjectID = "36p-Gc-Nad"; */
+"36p-Gc-Nad.normalTitle" = "確認註冊";
+
+/* Class = "UILabel"; text = "接受免除或者限制責任、訴訟管轄約定等粗體標示條款"; ObjectID = "6xN-vC-d99"; */
+"6xN-vC-d99.text" = "接受免除或者限制責任、訴訟管轄約定等粗體標示條款";
+
+/* Class = "UIButton"; normalTitle = "《用戶協議》"; ObjectID = "9nK-tx-Qlm"; */
+"9nK-tx-Qlm.normalTitle" = "《用戶協議》";
+
+/* Class = "UILabel"; text = "確認密碼"; ObjectID = "9r8-KR-pXh"; */
+"9r8-KR-pXh.text" = "確認密碼";
+
+/* Class = "UILabel"; text = " 密 碼"; ObjectID = "Dgj-q8-v5m"; */
+"Dgj-q8-v5m.text" = " 密 碼";
+
+/* Class = "UILabel"; text = "、"; ObjectID = "Nwu-el-EWy"; */
+"Nwu-el-EWy.text" = "、";
+
+/* Class = "UILabel"; text = "註冊即您代表同意"; ObjectID = "Voa-sG-Oke"; */
+"Voa-sG-Oke.text" = "註冊即您代表同意";
+
+/* Class = "UITextField"; placeholder = "請輸入驗證碼"; ObjectID = "Wss-c5-Z9K"; */
+"Wss-c5-Z9K.placeholder" = "請輸入驗證碼";
+
+/* Class = "UILabel"; text = "驗證碼"; ObjectID = "Y7a-k5-fPj"; */
+"Y7a-k5-fPj.text" = "驗證碼";
+
+/* Class = "UITextField"; placeholder = "請輸入手機號或用戶名"; ObjectID = "Zs8-EC-l6b"; */
+"Zs8-EC-l6b.placeholder" = "請輸入手機號或用戶名";
+
+/* Class = "UITextField"; placeholder = "請設置密碼"; ObjectID = "es6-6G-A6E"; */
+"es6-6G-A6E.placeholder" = "請設置密碼";
+
+/* Class = "UIButton"; normalTitle = "發送驗證碼"; ObjectID = "flE-gj-Tip"; */
+"flE-gj-Tip.normalTitle" = "發送驗證碼";
+
+/* Class = "UITextField"; placeholder = "請設置密碼"; ObjectID = "iP5-1m-FLB"; */
+"iP5-1m-FLB.placeholder" = "請設置密碼";
+
+/* Class = "UILabel"; text = " 賬 號"; ObjectID = "jx0-1Q-oTw"; */
+"jx0-1Q-oTw.text" = " 賬 號";
+
+/* Class = "UIButton"; normalTitle = "《 隱私政策》"; ObjectID = "mKz-ui-Z7X"; */
+"mKz-ui-Z7X.normalTitle" = "《 隱私政策》";
+
+/* Class = "UILabel"; text = "溫馨提示：此賬號可直接用於登陸游戲"; ObjectID = "mRI-wn-Tvo"; */
+"mRI-wn-Tvo.text" = "溫馨提示：此賬號可直接用於登陸游戲";

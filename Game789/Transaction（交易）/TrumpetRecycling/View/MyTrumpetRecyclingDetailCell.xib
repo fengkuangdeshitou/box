@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="KGk-i7-Jjw" customClass="MyTrumpetRecyclingDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JR5-Cr-zK7">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="50"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4A-iq-yf2">
+                        <rect key="frame" x="80" y="0.0" width="80" height="50"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrB-J9-9rZ">
+                        <rect key="frame" x="160" y="0.0" width="80" height="50"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nut-l4-pwn">
+                        <rect key="frame" x="240" y="0.0" width="80" height="50"/>
+                        <state key="normal" image="trading_agree_noSelected"/>
+                        <state key="selected" image="trading_agress_selected"/>
+                        <connections>
+                            <action selector="recycleButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="iGO-6s-CAm"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v4A-iq-yf2" firstAttribute="height" secondItem="JR5-Cr-zK7" secondAttribute="height" id="664-At-snM"/>
+                    <constraint firstItem="v4A-iq-yf2" firstAttribute="width" secondItem="JR5-Cr-zK7" secondAttribute="width" id="DEX-if-otq"/>
+                    <constraint firstItem="nut-l4-pwn" firstAttribute="height" secondItem="HrB-J9-9rZ" secondAttribute="height" id="KJk-aB-lG4"/>
+                    <constraint firstItem="nut-l4-pwn" firstAttribute="width" secondItem="HrB-J9-9rZ" secondAttribute="width" id="SgN-LX-oLo"/>
+                    <constraint firstItem="nut-l4-pwn" firstAttribute="centerY" secondItem="HrB-J9-9rZ" secondAttribute="centerY" id="XXv-f2-5HG"/>
+                    <constraint firstAttribute="bottom" secondItem="JR5-Cr-zK7" secondAttribute="bottom" id="a27-Ej-M5d"/>
+                    <constraint firstAttribute="trailing" secondItem="nut-l4-pwn" secondAttribute="trailing" id="cv8-ER-s5a"/>
+                    <constraint firstItem="nut-l4-pwn" firstAttribute="leading" secondItem="HrB-J9-9rZ" secondAttribute="trailing" id="ddh-Ei-tcD"/>
+                    <constraint firstItem="HrB-J9-9rZ" firstAttribute="width" secondItem="JR5-Cr-zK7" secondAttribute="width" id="frC-2u-JXr"/>
+                    <constraint firstItem="JR5-Cr-zK7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="g1S-YL-kGn"/>
+                    <constraint firstItem="v4A-iq-yf2" firstAttribute="centerY" secondItem="JR5-Cr-zK7" secondAttribute="centerY" id="glh-SJ-b1d"/>
+                    <constraint firstItem="HrB-J9-9rZ" firstAttribute="leading" secondItem="v4A-iq-yf2" secondAttribute="trailing" id="hn2-LD-BhC"/>
+                    <constraint firstItem="JR5-Cr-zK7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="kEQ-nt-zq4"/>
+                    <constraint firstItem="HrB-J9-9rZ" firstAttribute="centerY" secondItem="JR5-Cr-zK7" secondAttribute="centerY" id="oHm-8Z-D5r"/>
+                    <constraint firstItem="HrB-J9-9rZ" firstAttribute="height" secondItem="JR5-Cr-zK7" secondAttribute="height" id="taP-pU-PCa"/>
+                    <constraint firstItem="v4A-iq-yf2" firstAttribute="leading" secondItem="JR5-Cr-zK7" secondAttribute="trailing" id="w5T-UM-kux"/>
+                    <constraint firstItem="JR5-Cr-zK7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wCI-bJ-bzY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="rechargeAmount" destination="v4A-iq-yf2" id="etc-oo-WBc"/>
+                <outlet property="recycleAmount" destination="HrB-J9-9rZ" id="EN8-KS-HhF"/>
+                <outlet property="selectButton" destination="nut-l4-pwn" id="MF3-hp-792"/>
+                <outlet property="xhName" destination="JR5-Cr-zK7" id="9R8-fQ-Fw4"/>
+            </connections>
+            <point key="canvasLocation" x="110" y="86"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="trading_agree_noSelected" width="20" height="20"/>
+        <image name="trading_agress_selected" width="20" height="20"/>
+    </resources>
+</document>

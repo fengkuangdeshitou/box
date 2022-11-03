@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MemberDescCell" rowHeight="320" id="KGk-i7-Jjw" customClass="MemberDescCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_member_desc" translatesAutoresizingMaskIntoConstraints="NO" id="PCK-Uk-S5q">
+                        <rect key="frame" x="37" y="25" width="246.5" height="17"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="member_cell_bg" translatesAutoresizingMaskIntoConstraints="NO" id="ipu-S5-s0A">
+                        <rect key="frame" x="15" y="62" width="290" height="188"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="188" id="zw5-As-dWb"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_member_line_left" translatesAutoresizingMaskIntoConstraints="NO" id="EDY-9v-lP0">
+                        <rect key="frame" x="36" y="276" width="46" height="1.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多福利特权 敬请期待" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZ2-ZM-tp5">
+                        <rect key="frame" x="92" y="270" width="136.5" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="jvf-av-HR8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_member_line_right" translatesAutoresizingMaskIntoConstraints="NO" id="fhO-vU-7sr">
+                        <rect key="frame" x="238.5" y="276" width="46" height="1.5"/>
+                    </imageView>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="3NS-ZZ-5pw">
+                        <rect key="frame" x="15" y="62" width="290" height="188"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GOL-it-ELx">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="KGk-i7-Jjw" id="MZu-vq-npz"/>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="b0B-el-19f"/>
+                        </connections>
+                    </collectionView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="fhO-vU-7sr" firstAttribute="leading" secondItem="sZ2-ZM-tp5" secondAttribute="trailing" constant="10" id="0jS-LZ-o2G"/>
+                    <constraint firstItem="3NS-ZZ-5pw" firstAttribute="trailing" secondItem="ipu-S5-s0A" secondAttribute="trailing" id="2T6-Uu-Fdp"/>
+                    <constraint firstItem="sZ2-ZM-tp5" firstAttribute="leading" secondItem="EDY-9v-lP0" secondAttribute="trailing" constant="10" id="Ev6-tI-Nz7"/>
+                    <constraint firstItem="sZ2-ZM-tp5" firstAttribute="top" secondItem="ipu-S5-s0A" secondAttribute="bottom" constant="20" id="G6o-yw-ycb"/>
+                    <constraint firstItem="3NS-ZZ-5pw" firstAttribute="top" secondItem="ipu-S5-s0A" secondAttribute="top" id="HEx-Br-Hei"/>
+                    <constraint firstItem="fhO-vU-7sr" firstAttribute="centerY" secondItem="sZ2-ZM-tp5" secondAttribute="centerY" id="Jbm-1y-Lyd"/>
+                    <constraint firstItem="sZ2-ZM-tp5" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Ms5-xi-oOl"/>
+                    <constraint firstItem="ipu-S5-s0A" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="TeF-Ye-Q9I"/>
+                    <constraint firstItem="3NS-ZZ-5pw" firstAttribute="bottom" secondItem="ipu-S5-s0A" secondAttribute="bottom" id="UcZ-MT-TyP"/>
+                    <constraint firstAttribute="trailing" secondItem="ipu-S5-s0A" secondAttribute="trailing" constant="15" id="bQv-tS-g20"/>
+                    <constraint firstItem="sZ2-ZM-tp5" firstAttribute="centerY" secondItem="EDY-9v-lP0" secondAttribute="centerY" id="bt6-qW-6eg"/>
+                    <constraint firstItem="ipu-S5-s0A" firstAttribute="top" secondItem="PCK-Uk-S5q" secondAttribute="bottom" constant="20" id="fc5-BF-IcU"/>
+                    <constraint firstItem="PCK-Uk-S5q" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="igN-BG-wDi"/>
+                    <constraint firstItem="3NS-ZZ-5pw" firstAttribute="leading" secondItem="ipu-S5-s0A" secondAttribute="leading" id="qxv-YN-hZI"/>
+                    <constraint firstItem="PCK-Uk-S5q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="tOU-CU-enI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="collectionView" destination="3NS-ZZ-5pw" id="bRh-vv-mFh"/>
+            </connections>
+            <point key="canvasLocation" x="66.666666666666671" y="150.66964285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_member_desc" width="246.5" height="17"/>
+        <image name="home_member_line_left" width="46" height="1.5"/>
+        <image name="home_member_line_right" width="46" height="1.5"/>
+        <image name="member_cell_bg" width="345" height="187.5"/>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "金币获取方式\n"; ObjectID = "8oY-6n-7rN"; */
+"8oY-6n-7rN.text" = "金幣獲取方式\n";
+
+/* Class = "UILabel"; text = "每日签到/福利中心任务/邀请好友/平台活动等..."; ObjectID = "9AT-sH-KCn"; */
+"9AT-sH-KCn.text" = "每日簽到/福利中心任務/邀請好友/平台活動等...";
+
+/* Class = "UIButton"; normalTitle = "金币明细>"; ObjectID = "Q3m-98-6bJ"; */
+"Q3m-98-6bJ.normalTitle" = "金幣明細>";
+
+/* Class = "UILabel"; text = "金币使用说明"; ObjectID = "USG-cx-KyJ"; */
+"USG-cx-KyJ.text" = "金幣使用說明";
+
+/* Class = "UIButton"; normalTitle = "我知道了"; ObjectID = "YW6-ow-8Zv"; */
+"YW6-ow-8Zv.normalTitle" = "我知道了";
+
+/* Class = "UILabel"; text = "金币等同于平台币，可用于游戏内支付时抵扣，10金币等于1人民币。"; ObjectID = "glX-2V-bkp"; */
+"glX-2V-bkp.text" = "金幣等同於平台幣，可用於遊戲內支付時抵扣，10金幣等於1人民幣，部分特殊BT遊戲不支持金幣支付。";
+
+/* Class = "UILabel"; text = "金币的使用和获取"; ObjectID = "med-I6-47p"; */
+"med-I6-47p.text" = "金幣的使用和獲取";
